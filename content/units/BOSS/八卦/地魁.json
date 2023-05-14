@@ -190,7 +190,6 @@
 			"reload": 135.72,
 			"x": 36,
 			"y": -36,
-			//"baseRotation":180,
 			"cooldownTime": 150,
 			"rotate": true,
 			"rotateSpeed": 1.35,

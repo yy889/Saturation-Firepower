@@ -91,7 +91,7 @@
 	},
 	"coolantMultiplier": 0.75,
 	"liquidCapacity": 120,
-	"inaccuracy": 2,
+	"inaccuracy": 1.63,
 	"shake": 5,
 	"shootSound": "shootBig",
 	"rotateSpeed": 3.5,
@@ -503,9 +503,11 @@
 		"铬": {
 			"speed": 21,
 			"damage": 200,
+			"status": "内溃",
+			"statusDuration": 66,
 			"pierceArmor": true,
 			"lifetime": 25,
-			"knockback": 8,
+			"knockback": 11,
 			"width": 20,
 			"height": 24,
 			"shootEffect": {

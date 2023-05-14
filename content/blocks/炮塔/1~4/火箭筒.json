@@ -60,7 +60,6 @@
 	    "speed":8,
 	    "damage":17,
 		"status":"blasted",
-	   	"statusDuration":600,
     "sprite":"饱和火力-导弹",
 	    "backColor":"FF7F24",
 	    "frontColor":"E3E3E3", 

@@ -30,7 +30,7 @@
 	],
 	"research": {
 		"parent": "神渎",
-		//"objectives": [{"type": "SectorComplete","preset": "火天路"}]
+		"objectives": [{"type": "SectorComplete","preset": "火天路"}]
 	},
 	"abilities": [{
 		"type":"RegenAbility",
@@ -181,7 +181,6 @@
 			"y": 0,
 			"shootY": 48,
 			"rotate": false,
-			"top": false,
 			"inaccuracy": 8,
 			"shootSound": "flame",
 			"alternate": true,
@@ -366,7 +365,7 @@
 				"statusDuration": 4800,
 				"speed": 4,
 				"drag": -0.0175,
-				"lifetime": 126,
+				"lifetime": 98,
 				"hitShake": 25,
 				"width": 23,
 				"height": 23,
@@ -581,8 +580,8 @@
 						"speed": 8,
 						"lifetime": 8,
 						"damage": 28,
-						"status": "burning",
-						"statusDuration": 360,
+						"status": "殁火",
+						"statusDuration": 480,
 						"makeFire": true
 					}
 				}

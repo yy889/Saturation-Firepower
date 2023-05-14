@@ -134,7 +134,6 @@
 		"trailEffect":"none",
 		"despawnEffect":"none",
 		"status":"blasted",
-		"statusDuration":60,
 	"hitEffect":{"type": "MultiEffect",
 	"effects": [
 	{"type": "ParticleEffect",

@@ -262,17 +262,16 @@ SFlib.addToResearch(火天路, {
 	new Objectives.SectorComplete(SectorPresets.planetaryTerminal))
 });
 
-/*
 const 实验种植地 = new SectorPreset("实验种植地", TBLY, 64);
-实验种植地.description = "[stat]分支难度警告：非主线战役，可不打。\n[white]";
+实验种植地.description = "[stat]分支难度警告：非主线战役，可不打。\n[white]这是一处难得的自然条件适宜进行有机体研究的河域，第二军团已经在此驻扎，协助他们获取足够的样本并发送至我们的基地。";
 实验种植地.difficulty = 20;
 实验种植地.alwaysUnlocked = false;
 实验种植地.addStartingItems = true;
-实验种植地.captureWave = 70;
+实验种植地.captureWave = 12;
 实验种植地.localizedName = "实验种植地";
 exports.实验种植地 = 实验种植地;
 SFlib.addToResearch(实验种植地, {
 	parent: "星稀山脉",
 	objectives: Seq.with(
 	new Objectives.SectorComplete(SectorPresets.planetaryTerminal))
-*/
+});

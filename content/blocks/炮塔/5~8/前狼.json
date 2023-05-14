@@ -83,7 +83,7 @@
 	"consumes": {"power": 36},
 	"shootSound": "missileLarge",
 	"targetGround": false,
-	"targetAir": false,
+	"targetAir": true,
 	"inaccuracy": 0,
 	"shootCone": 120,
 	"shake": 6,
@@ -466,7 +466,7 @@
 		"硅钢/250",
 		"plastanium/330",
 		"裂位能/80",
-		"二级协议/2"
+		"二级协议/1"
 	],
 	"category": "turret",
 	"research": {

@@ -96,7 +96,6 @@
 		"hitSound":"boom",
 		"hitShake":9,
 		"status":"blasted",
-		"statusDuration":60,
 		"shootEffect": {
 			"type": "MultiEffect",
 			"effects": [
@@ -178,6 +177,7 @@
 		"fragBullets":20,
 		"fragBullet":{
 			"type":"BasicBulletType",
+			"status":"blasted",
 			"speed": 8,
 			"lifetime": 11,
 			"backColor": "FF7055FF",

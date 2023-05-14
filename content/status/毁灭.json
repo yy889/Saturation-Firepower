@@ -1,6 +1,6 @@
 {
 	"name":"毁灭",
-	"damage": 30,
+	"damage": 50,
 	"show":false,
 	"damageMultiplier":5,
 	"healthMultiplier":2,

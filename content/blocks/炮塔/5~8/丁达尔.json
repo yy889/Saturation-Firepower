@@ -34,8 +34,8 @@
 		"type": "BasicBulletType",
 		"damage": 92,
 		"collidesGround": false,
-		"speed": 20,
-		"lifetime": 36,
+		"speed": 18,
+		"lifetime": 25,
 		"drag": 0.005,
 		"pierce": true,
 		"pierceArmor":true,
@@ -89,14 +89,14 @@
 	"ammoMultiplier": 1
 	},
 	"consumes": {
-		"power": 40,
+		"power": 50,
 		"coolant": {
 			"amount": 2,
 			"optional": true
 		}
 	},
 	"rotateSpeed": 2.6,
-	"range": 600,
+	"range": 448,
 	"category": "turret",
 	"research": {
 		"parent": "天际",
@@ -108,29 +108,8 @@
 		]
 	},
 	"requirements": [
-		{
-			"item": "silicon",
-			"amount": 660
-		},
-		{
-			"item": "metaglass",
-			"amount": 500
-		},
-		{
-			"item": "硅钢",
-			"amount": 450
-		},
-		{
-			"item": "plastanium",
-			"amount": 450
-		},
-		{
-			"item": "泰勒合金",
-			"amount": 420
-		},
-		{
-			"item": "二级协议",
-			"amount": 3
-		}
+		"silicon/660","metaglass/870",
+		"裂位能/450","plastanium/500",
+		"泰勒合金/430","二级协议/3"
 	]
 }

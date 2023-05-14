@@ -25,7 +25,7 @@
 		"lifetime": 180,
 		"colorFrom": "FEEBB3FF",
 		"colorTo": "FEEBB300"},
-	"consumes":{"power":10},
+	"consumes":{"power":16},
 	"requirements":[
 	{ "item":"lead","amount":800},
 	{ "item":"silicon","amount":650},

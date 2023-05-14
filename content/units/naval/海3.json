@@ -157,7 +157,6 @@
 	"splashDamage":40,
 	"hitSound":"explosion",
 	"status":"blasted",
-   	"statusDuration":60,
 	"buildingDamageMultiplier":1.5,
 	"hitEffect":"flakExplosionBig",
 	"despawnEffect":"flakExplosionBig",

@@ -51,7 +51,7 @@
 		"sideWidth": 2,
 		"sideLength": 400,
 		"damage": 1048,
-		"lifetime": 108,
+		"lifetime": 88,
 		"pierceArmor":true,
 		"collidesAir": true,
 		"splashDamageRadius": 35,
@@ -177,7 +177,7 @@
 		"silicon/750",
 		"硅钢/800",
 		"泰勒合金/500",
-		"裂位能/700",
+		"裂位能/1400",
 		"二级协议/50",
 		"三级协议/30"
 	]

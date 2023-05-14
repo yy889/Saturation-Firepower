@@ -85,7 +85,6 @@
 	"buildingDamageMultiplier":2.33,
 	"collides":false,
 	"status":"blasted",
-   	"statusDuration":60,
 	"shootEffect":"shootSmallFlame",
 	"smokeEffect":{
 		"type": "ParticleEffect",

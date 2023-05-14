@@ -11,6 +11,7 @@
 	"buildRange": 400,
 	"buildSpeed": 10,
 	"buildBeamOffset": 24,
+	"range": 1000,
 	"flying": true,
 	"engines": [
 		{
@@ -65,7 +66,7 @@
 		"绝判","油蚀","碎解",
 		"阳电","阴电","崩溃","殁火"
 	],
-	"rotateSpeed": 0.35,
+	"rotateSpeed": 0.38,
 	"ammoCapacity": 99999,
 	"abilities": [
 		{
@@ -153,7 +154,20 @@
 					"colorFrom": "FFFFFF",
 					"colorTo": "25C9AB"
 				},
-				"smokeEffect": "smokeCloud",
+				"smokeEffect": {
+					"type": "ParticleEffect",
+					"particles": 28,
+					"sizeFrom": 28,
+					"sizeTo": 0,
+					"sizeInterp": "pow10In",
+					"interp": "pow5Out",
+					"length": 175,
+					"baseLength": 0,
+					"lifetime": 360,
+					"colorFrom": "25C9AB80",
+					"colorTo": "BFFFDB50",
+					"cone": 360
+				},
 				"chargeEffect": {
 					"type": "MultiEffect",
 					"effects": [
@@ -297,40 +311,20 @@
 				},
 				"despawnEffect": "none",
 				"hitEffect": {
-					"type": "MultiEffect",
-					"effects": [
-						{
-							"type": "ParticleEffect",
-							"particles": 6,
-							"sizeFrom": 4,
-							"sizeTo": 0,
-							"length": 30,
-							"baseLength": 0,
-							"lifetime": 60,
-							"interp": "pow5Out",
-							"sizeInterp": "pow5In",
-							"colorFrom": "25C9ABFF",
-							"colorTo": "BFFFDB",
-							"cone": 360
-						},
-						{
-							"type": "ParticleEffect",
-							"particles": 14,
-							"strokeFrom": 1.2,
-							"strokeTo": 0.8,
-							"line": true,
-							"lenFrom": 24,
-							"lenTo": 0,
-							"length": 50,
-							"baseLength": -18,
-							"lifetime": 22,
-							"interp": "pow5Out",
-							"sizeInterp": "pow5Out",
-							"colorFrom": "25C9ABFF",
-							"colorTo": "BFFFDB",
-							"cone": 36
-						}
-					]
+					"type": "ExplosionEffect",
+					"lifetime": 62,
+					"waveStroke": 9,
+					"waveLife": 36,
+					"waveRadBase": 0,
+					"waveColor": "BFFFDB",
+					"waveRad": 66,
+					"smokes": 9,
+					"smokeColor": "BFFFDBA8",
+					"sparkColor": "BFFFDB",
+					"sparks": 12,
+					"sparkRad": 78,
+					"sparkStroke": 2.33,
+					"sparkLen": 28
 				}
 			}
 		},
@@ -533,15 +527,30 @@
 					}
 				]
 			},
+			"velocityRnd":0.1,
 			"bullet": {
 				"type": "MissileBulletType",
+				"trailEffect":{
+					"type": "ParticleEffect",
+					"particles": 3,
+					"length": 20,
+					"baseLength": 0,
+					"lifetime": 60,
+					"randLength": false,
+					"sizeFrom":4,
+					"sizeTo":0,
+					"sizeInterp":"pow5In",
+					"interp":"pow5Out",
+					"colorFrom": "BFFFDB",
+					"colorTo": "25C9AB"
+				},
 				"width": 16,
 				"height": 68,
 				"sprite": "饱和火力-导弹",
 				"speed": 3,
 				"lifetime": 108.8,
 				"drag": -0.02,
-				"homingDelay": 32,
+				"homingDelay": 44,
 				"homingPower": 0.08,
 				"homingRange": 180,
 				"ammoMultiplier": 7,
@@ -555,7 +564,7 @@
 				"hitEffect": {
 					"type": "ExplosionEffect",
 					"lifetime": 22,
-					"waveStroke": 9,
+					"waveStroke": 3,
 					"waveLife": 18,
 					"waveRadBase": 0,
 					"waveColor": "BFFFDB",
@@ -608,13 +617,9 @@
 			"shootSound": "lasershoot",
 			"recoil": 0,
 			"rotateSpeed": 10,
-			"reload": 17,
-			"targetInterval": 1,
-			"targetSwitchInterval": 11,
-			"shoot": {
-				"shots": 4,
-				"shotDelay": 3
-			},
+			"reload": 4.2,
+			"targetInterval": 2,
+			"targetSwitchInterval": 4.2,
 			"bullet": {
 				"speed": 20,
 				"lifetime": 28,
@@ -643,13 +648,9 @@
 			"shootSound": "lasershoot",
 			"recoil": 0,
 			"rotateSpeed": 10,
-			"reload": 17,
-			"targetInterval": 1,
-			"targetSwitchInterval": 11,
-			"shoot": {
-				"shots": 4,
-				"shotDelay": 3
-			},
+			"reload": 4.2,
+			"targetInterval": 2,
+			"targetSwitchInterval": 4.2,
 			"bullet": {
 				"speed": 20,
 				"lifetime": 28,

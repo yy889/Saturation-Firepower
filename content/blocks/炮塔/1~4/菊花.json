@@ -196,7 +196,6 @@
     "homingRange": 80,
 	"ammoMultiplier":6,
 	"status":"blasted",
-	"statusDuration":60,
     "trailLength": 13,
     "trailWidth": 3,
     "trailColor": "FE7777FF",
@@ -246,7 +245,6 @@
         "fragBullet":{
 		"despawnEffect":"flakExplosionBig",
 		"status":"blasted",
-		"statusDuration":60,
 		"width":8,	"height":9,
 		"backColor":"D85555FF",
 		"frontColor":"FE7777FF",
