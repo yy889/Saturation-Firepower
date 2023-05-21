@@ -13,6 +13,7 @@
 	"recoil": 2,
     "minWarmup": 0.8,
     "shootWarmupSpeed": 0.05,
+	"warmupMaintainTime": 45,
 	"shoot":{
 	    "shots":5,
 	    "shotDelay":2

@@ -11,6 +11,7 @@
 		"power":18
 	},
 	"minWarmup": 0.8,
+	"warmupMaintainTime": 30,
 	"shootWarmupSpeed": 0.02,
 	"shootY":0,
 	"outlineColor":"2d2f39",

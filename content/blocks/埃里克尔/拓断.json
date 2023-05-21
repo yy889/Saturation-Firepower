@@ -15,6 +15,7 @@
 	"optional":true}
 	},
 	"minWarmup": 0.6,
+	"warmupMaintainTime": 45,
 	"shootWarmupSpeed": 0.08,
 	"outlineColor":"2d2f39",
 	"drawer":{

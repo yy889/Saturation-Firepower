@@ -17,6 +17,7 @@
 	"recoilTime": 90,
 	//"heatColor":"F2FF9C88",
 	"minWarmup": 0.88,
+	"warmupMaintainTime": 360,
 	"shootWarmupSpeed": 0.0072,
 	"drawer": {
 		"type": "DrawMulti",

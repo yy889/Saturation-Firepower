@@ -17,6 +17,7 @@
     "reload": 1800,
     "rotateSpeed": 0.33,
     "minWarmup": 0.88,
+	"warmupMaintainTime": 360,
     "shootWarmupSpeed": 0.008,
     "drawer": {
         "type": "DrawTurret",

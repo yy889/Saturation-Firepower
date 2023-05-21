@@ -37,6 +37,7 @@
 	"cone": 45,
 	"layer":41},
 	"minWarmup": 0.8,
+	"warmupMaintainTime": 45,
 	"shootWarmupSpeed": 0.043,
 	"drawer":{
 	"type":"DrawTurret",

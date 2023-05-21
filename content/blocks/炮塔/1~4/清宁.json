@@ -27,6 +27,7 @@
 		]
 	},
 	"shootWarmupSpeed": 0.02,
+	"warmupMaintainTime": 80,
 	"minWarmup": 0.88,
 	"drawer": {
 		"type": "DrawTurret",

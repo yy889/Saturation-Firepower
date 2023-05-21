@@ -9,6 +9,7 @@
 	"consumes": {"power":8},
 	"heatRequirement":60,
 	"maxHeatEfficiency":5,
+	"warmupMaintainTime": 60,
 	"shootWarmupSpeed": 0.02,
 	"minWarmup": 0.76,
 	"outlineColor":"2d2f39",
