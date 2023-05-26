@@ -107,7 +107,6 @@
 			"reloadMultiplier": 1,
 			"rangeChange": 40,
 			"status": "内溃",
-			"statusDuration": 16,
 			"speed": 8,
 			"damage": 45,
 			"knockback": 5.5,

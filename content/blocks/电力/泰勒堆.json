@@ -12,22 +12,24 @@
 	"powerProduction": 660,
 	"itemDuration": 36000,
 	"lightColor": "FFFFFF",
-	"drawer":{
-		"type":"DrawMulti",
-	"drawers":[
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
 			{
 				"type": "DrawRegion",
 				"suffix": "-bottom"
 			},
-		{
-			"type": "DrawPlasma",
-			"plasma1": "BFFFDB",
-			"plasma2": "25C9AB"
-		},
-		"DrawDefault",
-		{"type": "DrawLiquidRegion",
-			"drawLiquid": "cryofluid"}
-	]
+			{
+				"type": "DrawPlasma",
+				"plasma1": "BFFFDB",
+				"plasma2": "25C9AB"
+			},
+			"DrawDefault",
+			{
+				"type": "DrawLiquidRegion",
+				"drawLiquid": "cryofluid"
+			}
+		]
 	},
 	"destroyBullet": {
 		"type": "BasicBulletType",

@@ -1,0 +1,20 @@
+{
+	"name": "蓄能",	
+	"show":false,
+	"damageMultiplier":3,
+	"healthMultiplier":1.949,
+	"speedMultiplier":0,
+	"effectChance":0.25,
+	"effect":
+	{
+	"type": "WaveEffect",
+	"lifetime":36,
+	"strokeFrom": 3,
+	"strokeTo": 8,
+	"interp":"circleOut",
+	"sizeFrom":220,
+	"sizeTo":0,
+	"colorFrom":"BFFFDBA0",
+	"colorTo":"25C9AB"
+	}
+}

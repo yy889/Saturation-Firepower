@@ -1,6 +1,6 @@
 {
 	"name": "内溃",	
-	"show":false,
+	"permanent":true,
 	"healthMultiplier":0.9,
 	"speedMultiplier":0.8,
 	"reloadMultiplier":0.9,

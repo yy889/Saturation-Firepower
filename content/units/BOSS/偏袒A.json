@@ -1,5 +1,7 @@
 {
 	"type": "legs",
+	"healColor":"FF5B5B",
+	"outlineColor":"383848",
 	"legCount": 4,
 	"legLength": 35,
 	"legForwardScl": 0.35,

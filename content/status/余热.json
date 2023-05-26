@@ -1,7 +1,7 @@
 {
 	"name":"余热",
-	"damage":60,
-	"transitionDamage": 18000,
+	"damage":120,
+	"transitionDamage": 10000,
 	"affinities": ["余热","崩溃"],
 	"effectChance":1,
 	"effect":{

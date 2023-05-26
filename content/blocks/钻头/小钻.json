@@ -22,7 +22,7 @@
 		}
 	},
 	"itemCapacity": 5,
-	"liquidCapacity": 10,
+	"liquidCapacity": 5,
 	"requirements": [	
    { "item": "copper", "amount": 5 },
    { "item": "lead", "amount": 6 }

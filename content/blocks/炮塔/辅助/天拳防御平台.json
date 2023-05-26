@@ -1,6 +1,7 @@
 {
 	"type": "PowerTurret",
 	"name": "天拳防御平台",
+	"buildVisibility":"campaignOnly",
 	"health": 18800,
 	"armor":  22,
 	"size": 4,

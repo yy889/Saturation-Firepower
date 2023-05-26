@@ -3,7 +3,7 @@
 	"name": "弹道发射阵列",
 	"health": 17500,
 	"size": 8,
-	"reload": 90,
+	"reload": 93,
 	"range": 2160,
 	"customShadow": false,
 	"fogRadiusMultiuplier": 0.63,
@@ -11,25 +11,92 @@
 	"shootY": 0,
 	"minWarmup": 0.8,
 	"warmupMaintainTime": 120,
-	"shootWarmupSpeed": 0.055,
+	"shootWarmupSpeed": 0.033,
 	"solid": false,
 	"underBullets": true,
-	"hasShadow": false,
+	"elevation": 0,
+	"hasShadow": true,
+	"drawer": {
+		"type": "DrawTurret",
+		"parts": [
+			{
+				"type": "RegionPart",
+				"mirror": true,
+				"x": 20,
+				"y": 20,
+				"suffix": "-1",
+				"moveX": -16.25,
+				"moveY": -16.25
+			},
+			{
+				"type": "RegionPart",
+				"mirror": true,
+				"x": 20,
+				"y": -20,
+				"suffix": "-2",
+				"moveX": -16.25,
+				"moveY": 16.25
+			},
+			{
+				"type": "RegionPart",
+				"mirror": true,
+				"x": 20,
+				"y": 0,
+				"suffix": "-3",
+				"moveX": -16,
+				"moveY": 0
+			},
+			{
+				"type": "RegionPart",
+				"mirror": false,
+				"x": 0,
+				"y": 20,
+				"suffix": "-s",
+				"moveX": 0,
+				"moveY": -16
+			},
+			{
+				"type": "RegionPart",
+				"mirror": false,
+				"x": 0,
+				"y": -20,
+				"suffix": "-x",
+				"moveX": 0,
+				"moveY": 16
+			},
+			{
+				"type": "RegionPart",
+				"mirror": false,
+				"suffix": "-top",
+				"heatColor":"D85555A0",
+				"heatProgress": "warmup"
+			}
+		]
+	},
 	"shoot": {
 		"shots":2,
 		"shotDelay":23,
 		"type": "ShootBarrel",
 		"barrels": [
-		-20,20,0,
-		0,-20,0,
-		20,20,0,
-		-20,0,0,
-		0,20,0,
-		20,-20,0,
-		-20,-20,0,
-		20,0,0
+		-16.5,16.5,0,
+		0,-18.5,0,
+		16.5,16.5,0,
+		-18.5,0,0,
+		0,18.5,0,
+		16.5,-16.5,0,
+		-16.5,-16.5,0,
+		18.5,0,0
 		]
 	},
+	"canOverdrive": false,
+	"consumes": {"power": 60},
+	"shootSound": "missileLaunch",
+	"targetGround": true,
+	"targetAir": true,
+	"inaccuracy": 0,
+	"shootCone": 360,
+	"shake": 8,
+	"rotateSpeed": 0,
 	"ammoUseEffect": {
 		"type": "MultiEffect",
 		"effects": [
@@ -74,21 +141,15 @@
 			}
 		]
 	},
-	"canOverdrive": false,
-	"consumes": {"power": 60},
-	"shootSound": "missileLaunch",
-	"targetGround": true,
-	"targetAir": true,
-	"inaccuracy": 0,
-	"shootCone": 360,
-	"shake": 8,
-	"rotateSpeed": 0,
 	"maxAmmo": 48,
 	"consumeAmmoOnce":false,
 	"ammoPerShot": 16,
 	"ammoTypes": {
 		"集束": {
 			"type": "FlakBulletType",
+			"maxRange":2160,
+			"flakDelay":55,
+			"flakInterval":5,
 			"explodeRange":50,
 			"collidesGround":true,
 			"damage": 500,
@@ -213,7 +274,7 @@
 					{
 						"type": "ParticleEffect",
 						"region":"饱和火力-三角形",
-						"particles": 7,
+						"particles": 4,
 						"sizeFrom": 23,
 						"sizeTo": 0,
 						"spin":2,
@@ -224,6 +285,21 @@
 						"sizeInterp": "pow5In",
 						"colorFrom": "FFFFFF",
 						"colorTo": "FEEBB3"
+					},
+					{
+						"type": "ParticleEffect",
+						"region":"饱和火力-三角形",
+						"particles": 3,
+						"sizeFrom": 23,
+						"sizeTo": 0,
+						"spin":-1.22,
+						"length": 140,
+						"baseLength": 20,
+						"lifetime": 60,
+						"interp": "pow5Out",
+						"sizeInterp": "pow5In",
+						"colorFrom": "FFFFFF",
+						"colorTo": "D85555"
 					},
 					{
 						"type": "ParticleEffect",
@@ -316,6 +392,7 @@
 					}
 				]
 			},
+			"collidesGround":false,
 			"hitSound":"explosionbig",
 			"despawnEffect": "none",
 			"status": "blasted",
@@ -329,9 +406,9 @@
 			"splashDamageRadius": 60,
 			"splashDamage": 275,
 			"pierceArmor":true,
-			"lifetime": 20,
+			"lifetime": 30,
 			"speed": 13,
-			"drag": 0.01
+			"drag": 0.03
 			}
 		}
 	},
@@ -339,11 +416,11 @@
 		"plastanium/2200",
 		"裂位能/1200",
 		"镄/2000",
-		"莱普合金/800",
+		"莱普合金/1300",
 		"二级协议/60",
 		"三级协议/30"
 	],
-	//"objectives": ["前狼",{"type": "SectorComplete","preset": "咆哮西风带"}],
+	//"research": {"parent":"前狼","objectives": [{"type": "SectorComplete","preset": "咆哮西风带"}]},
 	"researchCostMultiplier": 0,
 	"category": "turret"
 }

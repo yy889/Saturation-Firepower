@@ -58,7 +58,7 @@
 			"duration": 660,
 			"reload": 300,
 			"range": 16,
-			"applyEffect": "none",
+			"applyEffect":"none",
 			"activeEffect": {
 				"type": "WaveEffect",
 				"lifetime": 32,

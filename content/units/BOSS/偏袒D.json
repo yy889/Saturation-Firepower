@@ -1,5 +1,7 @@
 {
 	"type": "legs",
+	"healColor":"FF5B5B",
+	"outlineColor":"383848",
 	"drawMinimap":false,
 	"lockLegBase": true,
 	"legCount": 6,

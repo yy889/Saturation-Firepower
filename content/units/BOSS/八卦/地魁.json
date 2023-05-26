@@ -16,21 +16,22 @@
 		"freezing","melting","disarmed",
 		"sapped","shocked","slow",
 		"tarred","unmoving","wet",
-		"spore-slowed","corroded","标记",
-		"裂位标记","拆解","干扰",
-		"绝判","油蚀","碎解",
-		"阳电","阴电","崩溃"
+		"spore-slowed","corroded",
+		"标记","裂位标记","拆解",
+		"干扰","绝判","油蚀",
+		"阳电","阴电","崩溃",
+		"急冻"
 	],
 	"ammoCapacity": 99999,
-	"health": 462000,
+	"health": 550000,
 	"armor": 258,
 	"accel": 0.098,
 	"drag": 0.075,
 	"drownTimeMultiplier":250000,
 	"faceTarget": false,
 	"research": {
-		"parent": "地魁",
-		//"objectives": [{"type": "SectorComplete","preset": "实验种植地"}]
+		"parent":"地魁",
+		"objectives": [{"type": "SectorComplete","preset": "实验种植地"}]
 	},
 	"treadPullOffset":43,
 	"treadFrames":64,
@@ -119,7 +120,7 @@
 		"splashDamageRadius":40,
 		"splashDamage":225,
 		"homingRange": 100,
-		"homingPower": 0.06,
+		"homingPower": 0.12,
 		"hitEffect":{"type": "MultiEffect",
 		"effects": [
 		{"type": "ParticleEffect",

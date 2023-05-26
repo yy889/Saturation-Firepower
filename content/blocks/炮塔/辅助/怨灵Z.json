@@ -196,7 +196,7 @@
 			}
 		}
 	},
-	"buildVisibility": "sandboxOnly",
+	"buildVisibility":"campaignOnly",
 	"requirements": [],
 	"category": "turret"
 }

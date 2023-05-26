@@ -598,7 +598,7 @@
                     "colorFrom": "BFFFDB",
                     "colorTo": "BFFFDB"}
                 ]},
-        "bulletInterval": 1,
+        "bulletInterval": 0.5,
         "intervalBullets": 3,
         "intervalRandomSpread": 360,
         "intervalSpread": 9,
@@ -678,7 +678,7 @@
             }}},
             "fragLifeMin": 0.6,
             "fragLifeMax": 1.5,
-            "fragBullets": 380,
+            "fragBullets": 760,
             "fragBullet":{
                 "type":"BasicBulletType",
 		        "hitSound":"explosionbig",

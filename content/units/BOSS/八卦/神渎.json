@@ -5,7 +5,7 @@
 	"outlineColor":"383848",
 	"hitSize": 88,
 	"canDrown": false,
-	"armor": 106,
+	"armor": 136,
 	"speed": 0.6,
 	"rotateSpeed": 1.14,
 	"baseRotateSpeed": 1.38,
@@ -23,13 +23,14 @@
 		"freezing","melting","disarmed",
 		"sapped","shocked","slow",
 		"tarred","unmoving","wet",
-		"spore-slowed","corroded","标记",
-		"裂位标记","拆解","干扰",
-		"绝判","油蚀","碎解",
-		"阳电","阴电","崩溃","殁火"
+		"spore-slowed","corroded",
+		"标记","裂位标记","拆解",
+		"干扰","绝判","油蚀",
+		"阳电","阴电","崩溃",
+		"殁火","急冻"
 	],
 	"research": {
-		"parent": "神渎",
+		"parent":"神渎",
 		"objectives": [{"type": "SectorComplete","preset": "火天路"}]
 	},
 	"abilities": [{

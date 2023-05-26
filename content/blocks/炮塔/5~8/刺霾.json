@@ -12,6 +12,7 @@
 	"recoil": 3,
 	"cooldownTime": 180,
 	"shake": 8,
+	"warmupMaintainTime": 60,
 	"minWarmup": 0.9,
 	"drawer":{
 		"type":"DrawTurret",
@@ -126,7 +127,6 @@
 			"drag": 0.05,
 			"lifetime": 18,
 			"status": "内溃",
-			"statusDuration": 168,
 			"sprite":"missile-large",
 			"backColor":"666484",
 			"trailColor":"666484",
