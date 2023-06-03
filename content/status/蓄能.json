@@ -1,8 +1,9 @@
 {
 	"name": "蓄能",	
 	"show":false,
-	"damageMultiplier":3,
+	"damageMultiplier":3.78,
 	"healthMultiplier":1.949,
+	"reloadMultiplier":0.22,
 	"speedMultiplier":0,
 	"effectChance":0.25,
 	"effect":
