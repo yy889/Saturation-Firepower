@@ -11,16 +11,18 @@
 	"targetGround":true,
 	"targetAir":true,
 	"hasPower":true,
-	"damage": 25,
+	"damage": 30,
+	"status":"崩溃",
+	"statusDuration":360,
 	"consumes": {
 	"power":15
 	},
 	  "requirements": [
-		{ "item": "lead", "amount":400 },
-		{ "item": "silicon", "amount":350 },
-		{ "item": "titanium", "amount":260 },
-		{ "item": "surge-alloy", "amount": 120 },	
-		{ "item": "二级协议", "amount": 0 }
+		"lead/300",
+		"silicon/350",
+		"titanium/260",
+		"surge-alloy/120",
+		"二级协议/0"
 	],
 	"category": "turret",
 	"research": "parallax"
