@@ -17,6 +17,7 @@
 	"shake": 5,
 	"coolEffect":"steam",
 	"targetHealing":true,
+	"unitSort":"strongest",
 	"cooldownTime":90,
 "drawer":{"type":"DrawMulti",
 "drawers":[{"type":"DrawTurret",

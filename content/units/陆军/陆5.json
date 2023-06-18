@@ -1,29 +1,31 @@
 {
 	"type": "tank",
 	"name": "斩首",
-	"description": "攻击附近所有敌人。发射分裂冲击弹。\n能够碾压敌人。",
 	"squareShape":true,
 	"omniMovement":false,
 	"rotateMoveFirst":false,
 	"speed": 1,
 	"hitSize": 48,
-	"drownTimeMultiplier":2.6,
-	"crushDamage":5,
+	"drownTimeMultiplier": 2.6,
+	"crushDamage": 5,
 	"treadRects": [
-		{"x": -86,
-		"y": -4,
-		"width": 42,
-		"height": 112
+		{
+			"x": -86,
+			"y": -108,
+			"width": 42,
+			"height": 112
 		},
-		{"x": -72,
-		"y": 108,
-		"width": 21,
-		"height": 16
+		{
+			"x": -72,
+			"y": -124,
+			"width": 21,
+			"height": 16
 		},
-		{"x": -86,
-		"y": -128,
-		"width": 42,
-		"height": 119
+		{
+			"x": -86,
+			"y": 9,
+			"width": 42,
+			"height": 119
 		}
 	],
 	"ammoType":"surge-alloy",
@@ -31,7 +33,6 @@
 	"targetAir":true,
 	"health": 42500,
 	"armor": 28,
-	"drag": 0.1,
 	"rotateSpeed": 1.22,
 	"itemCapacity": 45,
 	"faceTarget": false,

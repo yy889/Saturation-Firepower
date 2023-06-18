@@ -19,6 +19,7 @@
 	"solid": false,
 	"underBullets": true,
 	"elevation": 0,
+	"unitSort":"weakest",
 	"drawer": {
 		"type": "DrawTurret",
 		"parts": [

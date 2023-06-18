@@ -1,15 +1,28 @@
 {
 	"type": "tank",
 	"name": "平定",
-	"description": "攻击附近所有敌人。发射震撼穿甲弹。\n能够碾压敌人。",
 	"squareShape":true,
 	"omniMovement":false,
 	"rotateMoveFirst":false,
 	"hovering":true,
 	"speed": 0.8,
 	"crushDamage":8,
+	"treadRects": [
+		{
+			"x": -115,
+			"y": 118,
+			"width": 52,
+			"height": 48
+		},
+		{
+			"x": -118,
+			"y": -160,
+			"width": 79,
+			"height": 144
+		}
+	],
 	"hitSize": 66,
-	"immunities":["electrified","干扰","拆解","unmoving"],
+	"immunities":["shocked","electrified","干扰","拆解","unmoving"],
 	"ammoType":"泰勒合金",
 	"ammoCapacity": 200,
 	"targetAir":true,

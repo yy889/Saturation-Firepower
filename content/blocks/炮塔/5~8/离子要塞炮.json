@@ -17,6 +17,7 @@
 	"liquidCapacity": 360,
 	"canOverdrive": false,
 	"recoilTime": 120,
+	"unitSort":"strongest",
 	"shootY":8,
 	"shoot": {
 		"type": "ShootPattern",

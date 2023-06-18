@@ -1606,6 +1606,8 @@
 				"trailLength": 8,
 				"trailWidth": 3,
 				"trailColor": "BFFFDB",
+				"status":"干扰",
+				"statusDuration":80,
 				"hitSound": "titanExplosion",
 				"hitSoundVolume":4,
 				"shootEffect":{
@@ -2037,9 +2039,6 @@
 				"status": "失衡",
 				"statusDuration": 350,
 				"hittable": false,
-				"pierce": true,
-				"pierceCap": 5,
-				"pierceArmor": true,
 				"sprite": "circle-bullet",
 				"frontColor": "FFFFFF",
 				"backColor": "BFFFDB",

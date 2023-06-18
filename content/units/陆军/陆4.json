@@ -1,7 +1,6 @@
 {
 	"type": "tank",
 	"name": "反击",
-	"description":"攻击附近所有敌人。发射跨越防线的激光束。",
 	"squareShape":true,
 	"omniMovement":false,
 	"rotateMoveFirst":false,

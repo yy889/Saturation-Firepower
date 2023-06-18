@@ -24,6 +24,7 @@
 	"shootSound": "plasmaboom",
 	"rotateSpeed": 2.5,
 	"coolantMultiplier": 1,
+	"unitSort":"farthest",
 	"consumes": {
 		"power": 30,
 		"coolant": {

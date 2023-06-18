@@ -51,6 +51,7 @@
 			"rotation": -135
 		}
 	],
+	"engineLayer":110,
 	"engineOffset": 24,
 	"engineSize": 0,
 	"hitSize": 166,

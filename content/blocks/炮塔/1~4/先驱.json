@@ -1,50 +1,64 @@
 {
 	"type": "PowerTurret",
 	"name": "先驱",
-	"description": "向敌人发射小型震爆能量弹",
 	"targetAir": true,
 	"targetGround": true,
 	"health": 370,
-	"size": 1, 
-	"shootSound":"JG1",
-	"shake":0.2,
+	"size": 1,
+	"shootSound": "JG1",
+	"shake": 0.2,
 	"inaccuracy": 0,
-	"recoil": 1,
-	"recoilTime":10,
+	"recoil": 0.2,
+	"recoilTime": 10,
 	"heatColor": "FF4040",
-	"shootType": {
-	"type" : "BasicBulletType",
-	"damage": 12,
-	"frontColor":"FFFFFF",
-	"backColor":"BFFFDBFF",
-	"width": 7,
-	"height": 8,
-	"status":"unmoving",
-	"statusDuration":10,
-	"speed": 6,"lifetime": 24,
-	"ammoMultiplier":1,
-	"hitEffect": {	 
-		"type": "WaveEffect",
-		"lifetime": 8,
-		"sizeFrom": 0,
-		"sizeTo": 8,
-		"strokeFrom": 1,
-		"strokeTo": 0,
-		"colorFrom": "FFFFFF",
-		"colorTo": "BFFFDBFF"
-	   },
-	   "despawnEffect": {	 
-		"type": "WaveEffect",
-		"lifetime": 8,
-		"sizeFrom": 0,
-		"sizeTo": 8,
-		"strokeFrom": 1,
-		"strokeTo": 0,
-		"colorFrom": "FFFFFF",
-		"colorTo": "BFFFDBFF"
-	   }
+	"unitSort":"weakest",
+	"drawer": {
+		"type": "DrawTurret",
+		"parts": [
+			{
+				"type": "RegionPart",
+				"mirror": false,
+				"suffix": "-前",
+				"under": true,
+				"progress":"recoil",
+				"moveY": -0.8
+			}
+		]
 	},
-	"shootEffect": {	 
+	"shootType": {
+		"type": "BasicBulletType",
+		"damage": 12,
+		"frontColor": "FFFFFF",
+		"backColor": "BFFFDBFF",
+		"width": 7,
+		"height": 8,
+		"status": "干扰",
+		"statusDuration": 10,
+		"speed": 6,
+		"lifetime": 20,
+		"ammoMultiplier": 1,
+		"hitEffect": {
+			"type": "WaveEffect",
+			"lifetime": 8,
+			"sizeFrom": 0,
+			"sizeTo": 8,
+			"strokeFrom": 1,
+			"strokeTo": 0,
+			"colorFrom": "FFFFFF",
+			"colorTo": "BFFFDBFF"
+		},
+		"despawnEffect": {
+			"type": "WaveEffect",
+			"lifetime": 8,
+			"sizeFrom": 0,
+			"sizeTo": 8,
+			"strokeFrom": 1,
+			"strokeTo": 0,
+			"colorFrom": "FFFFFF",
+			"colorTo": "BFFFDBFF"
+		}
+	},
+	"shootEffect": {
 		"type": "WaveEffect",
 		"lifetime": 8,
 		"sizeFrom": 0,
@@ -53,17 +67,20 @@
 		"strokeTo": 0,
 		"colorFrom": "FFFFFF",
 		"colorTo": "BFFFDBFF"
-	   },
-	   "consumes": {"power":1.55,
-		"coolant":{"amount":0.1,"optional":true}  
-			},
+	},
+	"consumes": {
+		"power": 1.55,
+		"coolant": {
+			"amount": 0.1,
+			"optional": true
+		}
+	},
 	"reload": 20,
 	"rotateSpeed": 13,
 	"range": 120,
 	"category": "turret",
 	"research": "多管炮",
 	"requirements": [
-	{ "item": "copper", "amount":90},
-	{ "item": "lead", "amount":100}
+		"copper/90","lead/100"
 	]
 }

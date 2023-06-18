@@ -122,6 +122,7 @@
 			}
 		]
 	},
+	"unitSort":"strongest",
 	"shootY": 10,
 	"heatColor": "FF4040",
 	"cooldownTime": 180,

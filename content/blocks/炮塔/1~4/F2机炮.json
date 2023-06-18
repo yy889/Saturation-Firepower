@@ -10,6 +10,7 @@
 	"maxAmmo": 600,
 	"recoilTime": 10,
 	"recoil": 1,
+	"unitSort":"weakest",
 	"shoot":{
 		"type":"ShootAlternate",
 		"barrels":2,

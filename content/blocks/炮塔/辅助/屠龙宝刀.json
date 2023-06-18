@@ -460,7 +460,7 @@
             "spin":-1.8,
             "shrinkY": 1,
             "shrinkX": 1,
-            "hitShake": 2000,
+            "hitShake": 60,
             "hitSound": "DBZ1",
             "hitSoundVolume":28,
             "hitEffect": {

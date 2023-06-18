@@ -1,7 +1,6 @@
 {
 	"type": "ItemTurret",
 	"name": "怨灵",
-	"description": "向目标发射巨型被帽钝头弹，造成严重杀伤并击退敌人",
 	"health": 33000,
 	"armor": 46,
 	"size": 8,

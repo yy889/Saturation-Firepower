@@ -27,6 +27,7 @@
 	"minWarmup": 0.8,
 	"shootWarmupSpeed": 0.1,
 	"heatColor": "BFFFDB80",
+	"unitSort":"strongest",
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [

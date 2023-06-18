@@ -17,7 +17,7 @@
 	"legSplashDamage": 108,
 	"legSplashRange": 15,
 	"name": "偏袒",
-	"description": "精英机动辅助部队。跨越大多数地形修复附近友方单位。\n携带[stat]主动式[white]三叠内爆弹，[red]切莫使其接近防线！！！",
+	"fogRadius": 30,
 	"rotateSpeed": 1.88,
 	"speed": 1.05,
 	"hitSize": 33,
@@ -78,8 +78,6 @@
 		{
 			"name": "偏袒4",
 			"reload": 15,
-			"shootStatusDuration": 20,
-			"shootStatus": "强攻",
 			"x": 0,
 			"y": 4,
 			"shootY":13,
@@ -116,6 +114,7 @@
 			},
 			"bullet": {
 				"type":"BasicBulletType",
+				"scaledSplashDamage":true,
 				"killShooter": true,
 				"splashDamage": 22300,
 				"splashDamageRadius": 225,

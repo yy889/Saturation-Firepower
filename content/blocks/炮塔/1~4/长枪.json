@@ -1,8 +1,6 @@
 {
 	"type": "ItemTurret",
 	"name": "长枪",
-	"description": "向敌人发射中型冲击导弹",
-	"details": "一个火箭武器的过渡型号，装载末端制导设备",
 	"health": 1300,
 	"size": 3,
 	"reload": 45,
@@ -17,6 +15,7 @@
 	"shootY": 9,
 	"minWarmup": 0.8,
 	"shootWarmupSpeed": 0.3,
+	"unitSort":"weakest",
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [
@@ -279,9 +278,9 @@
 		}
 	},
 	"requirements": [
-		{ "item": "titanium", "amount": 55 },	
-		{ "item": "graphite", "amount": 45 },
-		{ "item": "silicon", "amount": 40 }
+		"titanium/55",	
+		"graphite/45",
+		"silicon/40"
 		],
 	"category": "turret",
 	"research": "火箭筒"

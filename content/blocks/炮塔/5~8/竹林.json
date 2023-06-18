@@ -19,6 +19,7 @@
 	"liquidCapacity": 180,
 	"ammoUseEffect": "none",
 	"canOverdrive": false,
+	"unitSort":"farthest",
 	"drawer": {
 		"type": "DrawMulti",
 		"drawers": [

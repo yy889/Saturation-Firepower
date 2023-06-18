@@ -1,5 +1,6 @@
 {
 	"health":290,
+	"details":"强化船体结构，换装二型鱼雷发射器",
 	"weapons":[
 		{"name":"灾星2",
 		"type":"RepairBeamWeapon",
