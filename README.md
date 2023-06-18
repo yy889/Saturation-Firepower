@@ -1,7 +1,7 @@
 # 饱和火力
 ![logo](https://user-images.githubusercontent.com/119042209/236638528-c89088d8-b4aa-4242-ab27-d9dd8f9d3772.png)
-这里是饱和火力模组官方Git存储位置
-Here is the official Git storage location of the [Saturation-Firepower] module for Mindustry!
+这里是饱和火力模组Git存储位置
+Here is the Git location of the [Saturation-Firepower] module for Mindustry!
 
 # SF有什么—What we have？
 200+新方块，囊括各方各面！更多工厂、钻头、传输组件、防御设施、单位工厂！
