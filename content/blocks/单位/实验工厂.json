@@ -3,7 +3,6 @@
 	"name": "实验工厂",
 	"description": "生产强大的[YELLOW]特殊战斗单位\n[red]谨慎使用。",
 	"details": "由泰特级单位重构工厂改造而来，其完备的设施足以直接组建大型单位",
-    "health":17000,
 	"size":13,
 	"consumes":{
 		"power":600
@@ -16,7 +15,7 @@
 		"surge-alloy/1300",
 		"裂位能/820","泰勒合金/730",
 		"二级协议/20"
-    ]},
+	]},
 	{ "unit": "空战6", "time": 18480,
 	"requirements": [
 		"silicon/3800","titanium/870",
@@ -24,7 +23,7 @@
 		"surge-alloy/1300",
 		"裂位能/820","泰勒合金/730",
 		"二级协议/20"
-    ]},
+	]},
 	{ "unit": "海战6", "time": 18480,
 	"requirements": [
 		"silicon/3800","metaglass/870",
@@ -32,7 +31,7 @@
 		"surge-alloy/1300",
 		"裂位能/820","泰勒合金/730",
 		"二级协议/20"
-    ]},
+	]},
 	{ "unit": "爬爬6", "time": 18480,
 	"requirements": [
 		"silicon/3800","titanium/870",
@@ -40,7 +39,7 @@
 		"surge-alloy/1300",
 		"裂位能/820","泰勒合金/730",
 		"二级协议/20"
-    ]},
+	]},
 	{ "unit": "路辅6", "time": 18480,
 	"requirements": [
 		"silicon/3800","纳米核/800",
@@ -48,7 +47,7 @@
 		"surge-alloy/1300",
 		"裂位能/820","泰勒合金/730",
 		"二级协议/20"
-    ]},
+	]},
 	{ "unit": "空辅6", "time": 18480,
 	"requirements": [
 		"silicon/3800","纳米核/800",
@@ -56,7 +55,7 @@
 		"surge-alloy/1300",
 		"裂位能/820","泰勒合金/730",
 		"二级协议/20"
-    ]},
+	]},
 	{ "unit": "海辅6", "time": 18480,
 	"requirements": [
 		"silicon/3800","纳米核/880",
@@ -64,13 +63,13 @@
 		"surge-alloy/1300",
 		"裂位能/820","泰勒合金/730",
 		"二级协议/20"
-    ]},
+	]},
 	{ "unit": "碎辰", "time": 19200,
 	"requirements": [
 		"silicon/4000","plastanium/2000",
 		"泰勒合金/1500","裂位能/3000",
 		"二级协议/20","三级协议/50"
-    ]},
+	]},
 	{ "unit": "陆6", "time": 18480,
 	"requirements": [
 		"silicon/3800","镄/880",
@@ -78,7 +77,7 @@
 		"surge-alloy/1300",
 		"裂位能/820","泰勒合金/730",
 		"二级协议/20"
-    ]},
+	]},
 	{ "unit": "空6", "time": 18480,
 	"requirements": [
 		"silicon/3800","titanium/880",
@@ -86,7 +85,7 @@
 		"surge-alloy/1300",
 		"裂位能/820","泰勒合金/730",
 		"二级协议/20"
-    ]},
+	]},
 	{ "unit": "海6", "time": 18480,
 	"requirements": [
 		"silicon/3800","metaglass/880",
@@ -94,7 +93,7 @@
 		"surge-alloy/1300",
 		"裂位能/820","泰勒合金/730",
 		"二级协议/20"
-    ]}
+	]}
 	],
 	"requirements": [
 	"lead/5000","silicon/5000",
@@ -102,7 +101,7 @@
 	"纳米核/2300","裂位能/1800",
 	"镄/3000","泰勒合金/1700",
 	"二级协议/200","三级协议/70"
-	    ],
+		],
 	"category":"units",
 	"canOverdrive": true,
 	"research": {
@@ -112,7 +111,7 @@
 				"type": "SectorComplete",
 				"preset": "第五战区"
 			},
-            {
+			{
 				"type": "SectorComplete",
 				"preset": "星稀山脉"
 			}

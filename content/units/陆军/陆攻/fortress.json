@@ -18,6 +18,7 @@
 			"shootSound": "artillery",
 			"bullet": {
 				"type": "ArtilleryBulletType",
+				"status": "blasted",
 				"damage": 45,
 				"speed": 3,
 				"lifetime": 82,

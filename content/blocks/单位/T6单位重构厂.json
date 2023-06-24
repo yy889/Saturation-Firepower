@@ -1,7 +1,6 @@
 {
 	"type": "Reconstructor",
 	"name": "泰特级单位重构工厂",
-    "health":8800,
 	"size":11,
 	"liquidCapacity":180,
 	"consumes":{

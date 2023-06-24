@@ -3,6 +3,7 @@
     "name": "零丁",
     "description": "从'灭绝'行动中缴获的实验性原型武器。",
     "details": "威力巨大，但这并不是一个好消息，敌人可能已经掌握了相关技术，尽快研究它",
+	"unitSort":"strongest",
     "targetAir": true,
     "targetGround": false,
     "fogRadiusMultiuplier":0.2,

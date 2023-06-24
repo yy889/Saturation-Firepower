@@ -17,6 +17,7 @@
 	"engineColor":"FF5B5B",
 	"trailColor":"FF5B5B",
 	"trailLength":12,
+	"engineLayer":110,
 	"engineOffset": 8,
 	"engineSize": 4,
 	"maxRange":30,

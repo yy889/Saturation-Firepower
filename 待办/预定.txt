@@ -75,3 +75,48 @@ overdrive场，overclock场-5秒-5格-3间隔
 
 攻坚
 重型火力支援舰艇
+
+
+"abilities": [
+		{
+			"type": "SpawnDeathAbility",
+			"unit": "mace",
+			"amount": 3,
+			"randAmount": 1,
+			"spread": 36
+		},
+		{
+			"type": "SpawnDeathAbility",
+			"unit": "fortress",
+			"amount": 1,
+			"randAmount": 1,
+			"spread": 36
+		}
+	],
+
+"shootEffect": "shootPyraFlame",
+				"smokeEffect": {
+					"type": "ParticleEffect",
+					"particles": 5,
+					"line": true,
+					"strokeFrom": 1.2,
+					"strokeTo": 0,
+					"lenFrom": 16,
+					"lenTo": 8,
+					"length": 76,
+					"baseLength": 0,
+					"lifetime": 12,
+					"colorFrom": "FFFFFF",
+					"colorTo": "FFE176FF",
+					"cone": 10
+				},
+				"hitEffect": {
+					"type": "ParticleEffect",
+					"particles": 4,
+					"lifetime": 10,
+					"sizeFrom": 3,
+					"sizeTo": 0,
+					"colorFrom": "FF8C00",
+					"colorTo": "FF8C00"
+				},
+				"despawnEffect": "none",

@@ -23,6 +23,7 @@
 			"alternate": true,
 			"ejectEffect": "casing4",
 			"bullet": {
+				"status": "blasted",
 				"damage": 97,
 				"pierceArmor": true,
 				"pierce": true,
@@ -71,6 +72,7 @@
 			"shootCone": 30,
 			"bullet": {
 				"type": "MissileBulletType",
+				"status": "blasted",
 				"damage": 25,
 				"splashDamageRadius": 35,
 				"splashDamage": 35,

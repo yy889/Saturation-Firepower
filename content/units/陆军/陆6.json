@@ -22,7 +22,7 @@
 		}
 	],
 	"hitSize": 66,
-	"immunities":["shocked","electrified","干扰","拆解","unmoving"],
+	"immunities":["shocked","electrified","干扰","崩溃","拆解","unmoving"],
 	"ammoType":"泰勒合金",
 	"ammoCapacity": 200,
 	"targetAir":true,

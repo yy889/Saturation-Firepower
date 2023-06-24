@@ -60,7 +60,9 @@
 		"pyratite": {
 			"type": "BasicBulletType",
 			"speed": 8,
-			"damage": 14,
+			"damage": 15,
+			"splashDamageRadius": 8,
+			"splashDamage": 22,
 			"status": "burning",
 			"statusDuration": 600,
 			"makeFire": true,
