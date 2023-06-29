@@ -7,7 +7,7 @@
 	"size": 3,
 	"reload": 180,
 	"range": 640,
-	"fogRadiusMultiuplier":0.46,
+	"fogRadiusMultiplier":0.46,
 	"maxAmmo": 30,
 	"recoil": 2,
 	"cooldownTime": 80,

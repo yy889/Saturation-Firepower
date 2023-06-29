@@ -6,7 +6,7 @@
 	"unitSort":"strongest",
     "targetAir": true,
     "targetGround": false,
-    "fogRadiusMultiuplier":0.2,
+    "fogRadiusMultiplier":0.2,
     "health": 835000,
     "size": 16,
     "armor":150,

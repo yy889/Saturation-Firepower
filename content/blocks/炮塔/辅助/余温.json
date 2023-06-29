@@ -988,7 +988,7 @@
 	"reload": 430,
 	"rotateSpeed": 0.86,
 	"shootCone": 1,
-	"fogRadiusMultiuplier": 0.2,
+	"fogRadiusMultiplier": 0.2,
 	"range": 3200,
 	"category": "turret",
 	//"research": {"parent": "余温","objectives": [{"type": "SectorComplete","preset": "溢裂要塞"}]},

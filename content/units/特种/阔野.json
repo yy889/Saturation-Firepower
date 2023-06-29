@@ -116,7 +116,7 @@
 			"sectors": 8,
 			"sectorRad": 0.06,
 			"rotateSpeed": 2,
-			"color": "FEEBB3FF",
+			"color": "FEEBB3",
 			"hitEffect": {
 				"type": "ParticleEffect",
 				"particles": 15,
@@ -125,7 +125,7 @@
 				"baseLength": 0,
 				"lifetime": 15,
 				"colorFrom": "ffffff",
-				"colorTo": "FEEBB3FF",
+				"colorTo": "FEEBB3",
 				"cone": 360
 			},
 			"damageEffect": "chainLightning",
@@ -159,7 +159,8 @@
 		}
 	],
 	"weapons": [
-		{"name": "阔野主炮",
+		{
+			"name": "阔野主炮",
 			"reload": 530,
 			"y": 60,
 			"x": 0,
@@ -194,8 +195,8 @@
 					"lenTo": 11,
 					"strokeFrom": 16,
 					"strokeTo": 0,
-					"colorFrom": "FEEBB3FF",
-					"colorTo": "FEEBB3FF",
+					"colorFrom": "FEEBB3",
+					"colorTo": "FEEBB3",
 					"cone": 0
 				},
 				"lifetime": 12,
@@ -240,7 +241,7 @@
 							"strokeFrom": 0,
 							"strokeTo": 4,
 							"colorFrom": "FEEBB300",
-							"colorTo": "FEEBB3FF"
+							"colorTo": "FEEBB3"
 						},
 						{
 							"type": "WaveEffect",
@@ -251,7 +252,7 @@
 							"strokeTo": 2,
 							"startDelay": 32,
 							"colorFrom": "FEEBB300",
-							"colorTo": "FEEBB3FF"
+							"colorTo": "FEEBB3"
 						},
 						{
 							"type": "WaveEffect",
@@ -262,7 +263,7 @@
 							"strokeTo": 2,
 							"startDelay": 48,
 							"colorFrom": "FEEBB300",
-							"colorTo": "FEEBB3FF"
+							"colorTo": "FEEBB3"
 						},
 						{
 							"type": "WaveEffect",
@@ -273,7 +274,7 @@
 							"strokeTo": 2,
 							"startDelay": 64,
 							"colorFrom": "FEEBB300",
-							"colorTo": "FEEBB3FF"
+							"colorTo": "FEEBB3"
 						}
 					]
 				},
@@ -423,7 +424,7 @@
 					"sprite": "circle-bullet",
 					"backColor": "FEEBB300",
 					"frontColor": "FFFFFF00",
-					"lightColor":"FEEBB3",
+					"lightColor": "FEEBB3",
 					"lightningDamage": 187,
 					"lightning": 1,
 					"lightningLength": 7,
@@ -472,8 +473,8 @@
 								"length": 200,
 								"baseLength": 0,
 								"lifetime": 33,
-								"colorFrom": "FEEBB3FF",
-								"colorTo": "FEEBB3FF",
+								"colorFrom": "FEEBB3",
+								"colorTo": "FEEBB3",
 								"cone": 360
 							},
 							{
@@ -632,7 +633,8 @@
 				}
 			]
 		},
-		{"name": "阔野副炮",
+		{
+			"name": "阔野副炮",
 			"reload": 38,
 			"x": 31,
 			"y": 92,
@@ -644,11 +646,11 @@
 			"alternate": true,
 			"shootSound": "shockBlast",
 			"cooldownTime": 80,
-			"velocityRnd":0.67,
+			"velocityRnd": 0.67,
 			"shootStatusDuration": 30,
 			"shootStatus": "强攻",
 			"shoot": {
-				"shots":2,
+				"shots": 2,
 				"type": "ShootHelix",
 				"mag": 3.65,
 				"scl": 17
@@ -656,7 +658,7 @@
 			"bullet": {
 				"type": "BasicBulletType",
 				"frontColor": "FFFFFF",
-				"backColor": "FEEBB3FF",
+				"backColor": "FEEBB3",
 				"hitSound": "laser",
 				"damage": 156,
 				"splashDamage": 140,
@@ -676,8 +678,8 @@
 					"sizeTo": 38,
 					"strokeFrom": 5,
 					"strokeTo": 0,
-					"colorFrom": "FEEBB3FF",
-					"colorTo": "FEEBB3FF"
+					"colorFrom": "FEEBB3",
+					"colorTo": "FEEBB3"
 				},
 				"sprite": "circle-bullet",
 				"shootEffect": "bigShockwave",
@@ -687,34 +689,36 @@
 				"trailLength": 17,
 				"trailWidth": 2.3,
 				"trailColor": "FEEBB3",
-				"lightColor":"FEEBB3",
+				"lightColor": "FEEBB3",
 				"lightningDamage": 97,
 				"lightning": 2,
 				"lightningLength": 6,
 				"speed": 2.3,
-				"drag":-0.018,
+				"drag": -0.018,
 				"lifetime": 126.3,
 				"width": 22,
 				"height": 22,
-				"parts":[{
-					"type": "HaloPart",
-					"rotateSpeed": 0,
-					"shapeRotation": 0,
-					"sides": 3,
-					"shapes": 2,
-					"color": "FEEBB3",
-					"colorTo": "FEEBB3",
-					"tri": true,
-					"hollow": true,
-					"radius": 10,
-					"radiusTo": 5,
-					"triLength": 85,
-					"triLengthTo": 16,
-					"haloRadius": 0,
-					"haloRotation": 0,
-					"haloRotateSpeed": 5.5,
-					"layer": 110
-				}],
+				"parts": [
+					{
+						"type": "HaloPart",
+						"rotateSpeed": 0,
+						"shapeRotation": 0,
+						"sides": 3,
+						"shapes": 2,
+						"color": "FEEBB3",
+						"colorTo": "FEEBB3",
+						"tri": true,
+						"hollow": true,
+						"radius": 10,
+						"radiusTo": 5,
+						"triLength": 85,
+						"triLengthTo": 16,
+						"haloRadius": 0,
+						"haloRotation": 0,
+						"haloRotateSpeed": 5.5,
+						"layer": 110
+					}
+				],
 				"spawnBullets": [
 					{
 						"type": "LaserBulletType",
@@ -728,7 +732,11 @@
 						"lifetime": 12,
 						"status": "崩溃",
 						"statusDuration": 60,
-						"colors": ["FEEBB3A8","FEEBB3","FFFFFF"],
+						"colors": [
+							"FEEBB3A8",
+							"FEEBB3",
+							"FFFFFF"
+						],
 						"width": 30,
 						"length": 834
 					}
@@ -746,8 +754,8 @@
 							"region": "饱和火力-星",
 							"sizeFrom": 150,
 							"sizeTo": 0,
-							"colorFrom": "FEEBB3FF",
-							"colorTo": "FEEBB3FF",
+							"colorFrom": "FEEBB3",
+							"colorTo": "FEEBB3",
 							"cone": 360
 						},
 						{
@@ -771,7 +779,7 @@
 							"sizeTo": 60,
 							"strokeFrom": 5,
 							"strokeTo": 0,
-							"colorFrom": "FEEBB3ff",
+							"colorFrom": "FEEBB3",
 							"colorTo": "FEEBB390"
 						}
 					]
@@ -779,7 +787,8 @@
 				"despawnEffect": "none"
 			}
 		},
-		{"name": "阔野导弹",
+		{
+			"name": "阔野导弹",
 			"x": 0,
 			"y": 16,
 			"inaccuracy": 12,
@@ -824,22 +833,21 @@
 				"status": "崩溃",
 				"statusDuration": 100,
 				"frontColor": "FFFFFF",
-				"backColor": "FEEBB3FF",
+				"backColor": "FEEBB3",
 				"trailLength": 46,
 				"trailWidth": 3,
-				"trailColor": "FEEBB3FF",
+				"trailColor": "FEEBB3",
 				"trailChance": 0.09,
-				"trailInterval": 9,
 				"trailRotation": true,
 				"trailEffect": {
 					"type": "ParticleEffect",
 					"particles": 3,
 					"sizeFrom": 3.75,
 					"sizeTo": 0,
-					"lifetime": 65,
+					"lifetime": 45,
 					"interp": "pow10Out",
-					"sizeInterp": "pow5In",
-					"length": 20,
+					"sizeInterp": "pow3In",
+					"length": 16,
 					"baseLength": 3,
 					"colorFrom": "FEEBB3",
 					"colorTo": "FEEBB3",
@@ -847,15 +855,15 @@
 				},
 				"shootEffect": {
 					"type": "ParticleEffect",
-					"particles": 12,
+					"particles": 9,
 					"sizeFrom": 6,
 					"sizeTo": 0,
-					"length": 45,
+					"length": 65,
 					"baseLength": 9,
 					"lifetime": 45,
-					"colorFrom": "FEEBB3FF",
-					"colorTo": "ffffff",
-					"cone": 360
+					"colorFrom": "FEEBB3",
+					"colorTo": "FEEBB3",
+					"cone": 30
 				},
 				"smokeEffect": "none",
 				"hitSound": "plasmaboom",
@@ -865,26 +873,21 @@
 					"type": "MultiEffect",
 					"effects": [
 						{
-							"type": "ParticleEffect",
-							"particles": 12,
-							"sizeFrom": 28,
-							"sizeTo": 0,
-							"length": 80,
-							"baseLength": 35,
-							"lifetime": 15,
-							"colorFrom": "FEEBB3A8",
-							"colorTo": "FEEBB3A8",
-							"cone": 360
+							"type":"WrapEffect",
+							"effect":"dynamicSpikes",
+							"color":"FEEBB3",
+							"rotation":95
 						},
 						{
-							"type": "WaveEffect",
-							"lifetime": 13,
-							"sizeFrom": 0,
-							"sizeTo": 78,
-							"strokeFrom": 9,
-							"strokeTo": 0,
-							"colorFrom": "FEEBB3FF",
-							"colorTo": "FEEBB3FF"
+							"type": "ParticleEffect",
+							"particles": 4,
+							"sizeFrom": 16,
+							"sizeTo": 0,
+							"length": 60,
+							"baseLength": 35,
+							"lifetime": 15,
+							"colorFrom": "FEEBB388",
+							"colorTo": "FEEBB388"
 						}
 					]
 				}
@@ -913,7 +916,8 @@
 				}
 			]
 		},
-		{"name": "阔野融毁",
+		{
+			"name": "阔野融毁",
 			"mirror": false,
 			"top": false,
 			"shake": 8,
@@ -940,7 +944,11 @@
 				"statusDuration": 100,
 				"width": 6,
 				"length": 630,
-				"colors": ["FEEBB390","FEEBB380","FEEBB3FF"],
+				"colors": [
+					"FEEBB390",
+					"FEEBB380",
+					"FEEBB3"
+				],
 				"hitEffect": {
 					"type": "ParticleEffect",
 					"particles": 15,
@@ -951,7 +959,7 @@
 					"baseLength": 0,
 					"lifetime": 25,
 					"colorFrom": "ffffff",
-					"colorTo": "FEEBB3FF",
+					"colorTo": "FEEBB3",
 					"cone": 80
 				},
 				"lifetime": 60,
@@ -965,8 +973,8 @@
 					"sizeTo": 0,
 					"strokeFrom": 1,
 					"strokeTo": 9,
-					"colorFrom": "FEEBB3FF",
-					"colorTo": "FEEBB3FF"
+					"colorFrom": "FEEBB3",
+					"colorTo": "FEEBB3"
 				},
 				"incendChance": 1,
 				"incendSpread": 8,
@@ -1018,15 +1026,16 @@
 		{
 			"name": "点防1",
 			"type": "PointDefenseWeapon",
-			"x": 0,"y": 16,
+			"x": 0,
+			"y": 16,
 			"rotate": true,
 			"shootSound": "lasercharge2",
 			"recoil": 0,
 			"rotateSpeed": 99,
 			"reload": 30,
 			"shoot": {
-				"shots":3,
-				"shotDelay":4
+				"shots": 3,
+				"shotDelay": 4
 			},
 			"targetInterval": 10,
 			"targetSwitchInterval": 10,
@@ -1042,7 +1051,7 @@
 					"baseLength": 0,
 					"lifetime": 25,
 					"colorFrom": "ffffff",
-					"colorTo": "FEEBB3FF"
+					"colorTo": "FEEBB3"
 				},
 				"maxRange": 360,
 				"damage": 120
@@ -1074,13 +1083,13 @@
 				"pierceArmor": true,
 				"despawnEffect": "none",
 				"pierce": true,
-				"color": "FEEBB3FF",
+				"color": "FEEBB3",
 				"collides": false,
 				"hitSize": 0,
 				"hittable": false,
 				"hitEffect": "hitLiquid",
 				"status": "melting",
-				"lightColor": "FEEBB3FF",
+				"lightColor": "FEEBB3",
 				"lightOpacity": 0.6,
 				"statusDuration": 60,
 				"impact": true
@@ -1112,13 +1121,13 @@
 				"pierceArmor": true,
 				"despawnEffect": "none",
 				"pierce": true,
-				"color": "FEEBB3FF",
+				"color": "FEEBB3",
 				"collides": false,
 				"hitSize": 0,
 				"hittable": false,
 				"hitEffect": "hitLiquid",
 				"status": "melting",
-				"lightColor": "FEEBB3FF",
+				"lightColor": "FEEBB3",
 				"lightOpacity": 0.6,
 				"statusDuration": 60,
 				"impact": true

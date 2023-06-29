@@ -357,8 +357,7 @@
 					]
 				},
 				"bulletInterval": 5,
-				"intervalBullets": 2,
-				"intervalSpread": 5,
+				"intervalBullets": 3,
 				"intervalBullet": {
 					"type": "EmpBulletType",
 					"sprite": "饱和火力-海胆",
@@ -370,9 +369,7 @@
 					"hittable": false,
 					"absorbable": false,
 					"hitShake": 8,
-					"damage":38,
-					"splashDamageRadius": 100,
-					"splashDamage": 80,
+					"damage": 18,
 					"radius": 100,
 					"timeIncrease": 1,
 					"powerDamageScl": 1.8,
@@ -514,9 +511,8 @@
 						}
 					]
 				},
-				"bulletInterval": 5,
-				"intervalBullets": 2,
-				"intervalSpread": 5,
+				"bulletInterval": 7,
+				"intervalBullets": 3,
 				"intervalBullet": {
 					"type": "EmpBulletType",
 					"sprite": "饱和火力-海胆",
@@ -528,9 +524,7 @@
 					"hittable": false,
 					"absorbable": false,
 					"hitShake": 8,
-					"damage":38,
-					"splashDamageRadius": 100,
-					"splashDamage": 80,
+					"damage": 18,
 					"radius": 100,
 					"timeIncrease": 1,
 					"powerDamageScl": 1.8,
@@ -673,8 +667,7 @@
 					]
 				},
 				"bulletInterval": 5,
-				"intervalBullets": 2,
-				"intervalSpread": 5,
+				"intervalBullets": 3,
 				"intervalBullet": {
 					"type": "EmpBulletType",
 					"sprite": "饱和火力-海胆",
@@ -686,9 +679,7 @@
 					"hittable": false,
 					"absorbable": false,
 					"hitShake": 8,
-					"damage":38,
-					"splashDamageRadius": 100,
-					"splashDamage": 80,
+					"damage": 18,
 					"radius": 100,
 					"timeIncrease": 1,
 					"powerDamageScl": 1.8,

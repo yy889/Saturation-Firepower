@@ -14,7 +14,6 @@
 	"damage": 30,
 	"status":"崩溃",
 	"statusDuration":360,
-	"unitSort":"weakest",
 	"consumes": {
 	"power":15
 	},

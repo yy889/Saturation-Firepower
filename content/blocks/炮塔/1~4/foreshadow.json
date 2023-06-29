@@ -1,7 +1,7 @@
 {
 	"range": 720,
 	"rotateSpeed": 3,
-	"fogRadiusMultiuplier":0.6888,
+	"fogRadiusMultiplier":0.6888,
 	"canOverdrive": false,
 	"ammoTypes": {
 		"surge-alloy": {

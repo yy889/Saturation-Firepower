@@ -3,7 +3,7 @@
 	"armor":22,
 	"size": 8,
 	"reload": 2.4,
-	"fogRadiusMultiuplier":1.125,
+	"fogRadiusMultiplier":1.125,
 	"range": 520,
 	"maxAmmo": 60,
 	"recoilTime":90,

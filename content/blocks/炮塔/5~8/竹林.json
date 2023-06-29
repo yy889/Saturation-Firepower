@@ -7,7 +7,7 @@
 	"size": 8,
 	"reload": 340,
 	"range": 800,
-	"fogRadiusMultiuplier":0.46,
+	"fogRadiusMultiplier":0.46,
 	"maxAmmo": 160,
 	"heatColor": "FF7055FF",
 	"cooldownTime": 230,

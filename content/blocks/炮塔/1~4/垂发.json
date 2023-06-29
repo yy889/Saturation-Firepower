@@ -8,7 +8,7 @@
 	"reload": 150,
 	"range": 760,
 	"customShadow": false,
-	"fogRadiusMultiuplier": 0.42,
+	"fogRadiusMultiplier": 0.42,
 	"maxAmmo": 32,
 	"recoil": 0,
 	"shootY": 0,

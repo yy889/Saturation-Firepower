@@ -167,7 +167,7 @@
 	},
 	"reload": 1000,
 	"rotateSpeed": 3,
-	"fogRadiusMultiuplier": 0.3,
+	"fogRadiusMultiplier": 0.3,
 	"range": 1600,
 	"category": "turret",
 	"research": "战研",

@@ -6,7 +6,7 @@
 	"reload": 93,
 	"range": 2160,
 	"customShadow": false,
-	"fogRadiusMultiuplier": 0.63,
+	"fogRadiusMultiplier": 0.63,
 	"recoil": 0,
 	"shootY": 0,
 	"minWarmup": 0.8,

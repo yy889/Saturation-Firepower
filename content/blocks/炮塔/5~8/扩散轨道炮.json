@@ -9,7 +9,7 @@
 	"reload": 600,
 	"canOverdrive": false,
 	"range": 800,
-	"fogRadiusMultiuplier": 0.35,
+	"fogRadiusMultiplier": 0.35,
 	"coolantMultiplier": 0.5,
 	"recoilTime": 100,
 	"recoil": 8,

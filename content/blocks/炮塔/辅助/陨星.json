@@ -6,7 +6,7 @@
 	"health": 17650,
 	"size": 5,
 	"reload": 980,
-	"fogRadiusMultiuplier":0.3,
+	"fogRadiusMultiplier":0.3,
 	"range": 1000,
 	"maxAmmo": 20,
 	"recoilTime": 180,

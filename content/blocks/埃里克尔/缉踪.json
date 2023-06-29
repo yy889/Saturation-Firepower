@@ -28,7 +28,7 @@
 	"targetGround":false,
 	"targetAir":true,
 	"range": 564.4,
-	"fogRadiusMultiuplier":1.55,
+	"fogRadiusMultiplier":1.55,
 	"recoil": 0,
 	"drawer":{"type":"DrawTurret",
 	"basePrefix":"reinforced-",

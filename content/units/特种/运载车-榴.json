@@ -1,6 +1,7 @@
 {
 	"type": "tank",
 	"template": "TankUnitType",
+	"healFlash":false,
 	"treadFrames": 16,
 	"treadPullOffset": 8,
 	"crushDamage": 2,
@@ -35,6 +36,10 @@
 		"totalPower": 5000
 	},
 	"ammoCapacity": 80,
+	"abilities": [{
+		"type":"RegenAbility",
+		"percentAmount": 0.002
+	}],
 	"health": 15000,
 	"armor": 36,
 	"itemCapacity": 0,
@@ -64,8 +69,8 @@
 			"y": -6,
 			"suffix": "-支架",
 			"layer": 59,
-			"moveX": -14,
-			"moveY": -17,
+			"moveX": -15,
+			"moveY": -19,
 			"moveRot": -35,
 			"progress": "warmup"
 		}

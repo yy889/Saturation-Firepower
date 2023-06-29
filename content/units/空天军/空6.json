@@ -207,15 +207,9 @@
 				"shotDelay": 4.07,
 				"type": "ShootBarrel",
 				"barrels": [
-					0,
-					12,
-					0,
-					40,
-					-6,
-					0,
-					-40,
-					-6,
-					0
+					0,12,0,
+					40,-6,0,
+					-40,-6,0
 				]
 			},
 			"reload": 372,
@@ -317,7 +311,7 @@
 			"alternate": true,
 			"shootY": 6.5,
 			"shoot": {
-				"shots": 6,
+				"shots": 3,
 				"shotDelay": 2,
 				"type": "ShootAlternate",
 				"barrels": 2,
