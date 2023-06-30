@@ -6,7 +6,7 @@
 		"totalPower": 50000
 	},
 	"ammoCapacity": 2300,
-	"speed": 0.863,
+	"speed": 0.783,
 	"rotateSpeed": 0.622,
 	"drag": 0.05,
 	"accel": 0.08,
