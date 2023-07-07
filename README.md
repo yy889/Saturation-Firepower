@@ -15,5 +15,5 @@ Here is the Git location of the [Saturation-Firepower] module for Mindustry!
 欢迎来此提出建议与反馈
 
 # 服务器/Sever location:
-mdtbaohe.work:1324
+mdtbaohe.work:43252
 
