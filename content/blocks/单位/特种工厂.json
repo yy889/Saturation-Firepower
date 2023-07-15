@@ -1,7 +1,6 @@
 {
 	"type": "UnitFactory",
 	"name": "特种工厂",
-	"description": "研究并生产先进战斗单位。",
 	"health": 2800,
 	"size": 5,
 	"consumes": {

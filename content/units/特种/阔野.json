@@ -92,19 +92,7 @@
 	"health": 200000,
 	"armor": 166,
 	"itemCapacity": 1800,
-	"research": {
-		"parent": "实验工厂",
-		"objectives": [
-			{
-				"type": "SectorComplete",
-				"preset": "风沙谷"
-			},
-			{
-				"type": "SectorComplete",
-				"preset": "第五战区"
-			}
-		]
-	},
+	"research":"阔野管理中心",
 	"abilities": [
 		{
 			"type": "EnergyFieldAbility",
@@ -647,8 +635,6 @@
 			"shootSound": "shockBlast",
 			"cooldownTime": 80,
 			"velocityRnd": 0.67,
-			"shootStatusDuration": 30,
-			"shootStatus": "强攻",
 			"shoot": {
 				"shots": 2,
 				"type": "ShootHelix",
@@ -1032,11 +1018,7 @@
 			"shootSound": "lasercharge2",
 			"recoil": 0,
 			"rotateSpeed": 99,
-			"reload": 30,
-			"shoot": {
-				"shots": 3,
-				"shotDelay": 4
-			},
+			"reload": 18,
 			"targetInterval": 10,
 			"targetSwitchInterval": 10,
 			"bullet": {

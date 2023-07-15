@@ -2,6 +2,7 @@
 	"type": "ItemTurret",
 	"name": "缉踪",
 	"description": "发射密集的小型集束追踪防空导弹，极易被拦截。索引雷达耗能较高，仅在交火时启动。",
+	"unitSort":"strongest",
 	"health": 2780,
 	"size": 5,
 	"reload": 120,

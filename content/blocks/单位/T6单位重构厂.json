@@ -3,19 +3,20 @@
 	"name": "泰特级单位重构工厂",
 	"size":11,
 	"liquidCapacity":180,
-	"consumes":{
-		"power":45,
-		"items": {	"items": [
-	{"item":"silicon","amount":1300},
-	{"item":"plastanium","amount":850},
-	{"item":"surge-alloy","amount":700},
-	{ "item": "硅钢", "amount": 800 },
-	{"item":"泰勒合金","amount":600},
-	{ "item": "裂位能", "amount": 450 }
-	]
+	"consumes": {
+		"power": 45,
+		"items": {
+			"items": [
+				"silicon/1300",
+				"plastanium/850",
+				"surge-alloy/700",
+				"硅钢/800",
+				"泰勒合金/600",
+				"裂位能/450"
+			]
 		},
-		"liquid": 
-	{"liquid": "cryofluid", "amount": 6 }	},
+		"liquid": "cryofluid/6"
+	},
 	"upgrades":[
         ["reign","陆战6"],
 		["eclipse","空战6"], 
@@ -28,20 +29,20 @@
 		["空5","空6"],
 		["海5","海6"]
 	],
-	"constructTime":17280,
+	"constructTime": 17280,
 	"requirements": [
-		{"item":"lead","amount":4000},
-    	{"item":"silicon","amount":3800},
-		{"item":"plastanium","amount":2200},
-		{"item":"surge-alloy","amount":1700},
-	    {"item":"镄","amount":800},
-	    {"item":"硅钢","amount":1500},
-	    {"item":"泰勒合金","amount":900},
-		{"item":"裂位能", "amount": 750},
-		{"item":"三级协议","amount":30}
+		"lead/4000",
+		"silicon/3800",
+		"plastanium/2200",
+		"surge-alloy/1700",
+		"镄/800",
+		"硅钢/1500",
+		"泰勒合金/900",
+		"裂位能/750",
+		"三级协议/30"
 	],
-	"category":"units",
-	"buildVisibility":"shown",
+	"category": "units",
+	"buildVisibility": "shown",
 	"research": {
 		"parent": "战研",
 		"objectives": [
@@ -57,5 +58,6 @@
 				"type": "SectorComplete",
 				"preset": "第五战区"
 			}
-			]}
+		]
+	}
 }

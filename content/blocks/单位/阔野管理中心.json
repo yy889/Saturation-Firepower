@@ -16,7 +16,7 @@
 	"plans": [
 		{
 			"unit": "阔野",
-			"time": 18000,
+			"time": 28800,
 			"requirements": [
 				"饱和火力-竹林/1",
 				"饱和火力-破晓/2",
@@ -29,24 +29,28 @@
 	],
 	"droneType": "组装无人机",
 	"requirements": [
-		"镄/5500",
-		"silicon/5000",
+		"镄/8000",
+		"silicon/6000",
 		"纳米核/5000",
-		"plastanium/3800",
+		"plastanium/5000",
 		"裂位能/3000",
-		"泰勒合金/2700",
+		"泰勒合金/3000",
+		"莱普合金/2000",
 		"二级协议/200",
-		"三级协议/50"
+		"三级协议/90"
 	],
 	"category": "units",
 	"canOverdrive": false,
-	//"buildVisibility": "sandboxOnly",
 	"research": {
 		"parent": "实验工厂",
 		"objectives": [
 			{
 				"type": "SectorComplete",
 				"preset": "溢裂要塞"
+			},
+			{
+				"type": "SectorComplete",
+				"preset": "火天路"
 			}
 		]
 	}

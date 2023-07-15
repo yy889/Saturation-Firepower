@@ -47,6 +47,7 @@
 			}
 		]
 	},
+	"itemOffsetY": 1,
 	"mineSpeed": 11,
 	"mineTier": 4,
 	"mineRange": 70,
@@ -54,7 +55,7 @@
 	"abilities": [
 		{
 			"type": "StatusFieldAbility",
-			"duration": 30,
+			"duration": 50,
 			"reload": 120,
 			"range": 60,
 			"applyEffect": "none",

@@ -1,6 +1,6 @@
 {
-"name":"修复",
-	"damage":-6,
+	"name":"修复",
+	"damage":-4,
 	"healthMultiplier":1.5,
 	"effectChance":0.3,
 	"opposites": [

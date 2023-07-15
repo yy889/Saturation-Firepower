@@ -30,7 +30,7 @@
 	"speed": 0.55,
 	"accel": 0.08,
 	"drag": 0.08,
-	"hitSize": 30,
+	"hitSize": 32,
 	"ammoType": "titanium",
 	"ammoCapacity": 80,
 	"hovering": true,

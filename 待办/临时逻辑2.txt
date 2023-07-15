@@ -1,0 +1,73 @@
+ubind @饱和火力-空辅6
+jump 0 strictEqual @unit null
+read y cell1 1
+read x cell1 0
+read X cell1 3
+read Y cell1 4
+ucontrol build X Y @饱和火力-竹林 0 0
+getlink 建筑 2
+jump 6 equal 建筑 0
+ucontrol move X Y 0 0 0
+ucontrol within X Y 1 ji 0
+jump 9 notEqual ji 1
+ucontrol payTake 0 Y 0 0 0
+sensor 载货 @unit @payloadCount
+jump 12 lessThan 载货 1
+ucontrol move x y 0 0 0
+ucontrol within x y 1 ji 0
+jump 15 notEqual ji 1
+ucontrol payDrop 0 Y 0 0 0
+sensor 载货 @unit @payloadCount
+jump 18 notEqual 载货 0
+print 建筑并搬运5炮塔
+read X cell1 5
+read Y cell1 6
+set 五炮数 0
+jump 31 greaterThan 五炮数 4
+jump 29 greaterThan 五炮数 2
+ucontrol build X Y @饱和火力-错位 0 0
+jump 32 always 五炮数 2
+ucontrol build X Y @饱和火力-消去 0 0
+jump 32 always 五炮数 2
+ucontrol build X Y @饱和火力-破晓 0 0
+getlink 建筑 2
+jump 25 equal 建筑 0
+op add 五炮数 五炮数 1
+ucontrol move X Y 0 0 0
+ucontrol within X Y 2 ji 0
+jump 35 notEqual ji 1
+ucontrol payTake 0 Y 0 0 0
+sensor 载货 @unit @payloadCount
+jump 25 lessThan 载货 3
+ucontrol move x y 0 0 0
+ucontrol within x y 4 ji 0
+jump 41 notEqual ji 1
+ucontrol payDrop 0 Y 0 0 0
+sensor 载货 @unit @payloadCount
+jump 44 notEqual 载货 0
+jump 25 lessThan 五炮数 6
+print 建筑并搬运收容块
+read X cell1 7
+read Y cell1 8
+set 收容块 0
+jump 55 greaterThan 收容块 5
+ucontrol build X Y @饱和火力-裂位收容块 0 0
+jump 56 always 收容块 2
+ucontrol build X Y @饱和火力-装甲收容块 0 0
+getlink 建筑 2
+jump 52 equal 建筑 0
+op add 收容块 收容块 1
+ucontrol move X Y 0 0 0
+ucontrol within X Y 1.5 ji 0
+jump 59 notEqual ji 1
+ucontrol payTake 0 Y 0 0 0
+sensor 载货 @unit @payloadCount
+jump 52 lessThan 载货 5
+ucontrol move x y 0 0 0
+ucontrol within x y 4 ji 0
+jump 65 notEqual ji 1
+ucontrol payDrop 0 Y 0 0 0
+sensor 载货 @unit @payloadCount
+jump 68 notEqual 载货 0
+jump 52 lessThan 收容块 25
+jump 1 always x false

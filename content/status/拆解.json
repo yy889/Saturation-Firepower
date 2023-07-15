@@ -1,6 +1,6 @@
 {
-"name":"拆解",
-	"damage":1,
+	"name":"拆解",
+	"damage":3,
 	"speedMultiplier":0.8,
 	"effectChance":0.1,
 	"opposites": [
