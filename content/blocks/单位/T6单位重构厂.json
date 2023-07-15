@@ -34,28 +34,24 @@
 		"lead/4000",
 		"silicon/3800",
 		"plastanium/2200",
-		"surge-alloy/1700",
 		"镄/800",
 		"硅钢/1500",
-		"泰勒合金/900",
+		"泰勒合金/1200",
 		"裂位能/750",
 		"三级协议/30"
 	],
 	"category": "units",
 	"buildVisibility": "shown",
+	"researchCostMultiplier": 0,
 	"research": {
 		"parent": "战研",
 		"objectives": [
 			{
 				"type": "SectorComplete",
-				"preset": "荒芜矿区"
-			},
-			{
-				"type": "SectorComplete",
 				"preset": "中央盆地"
 			},
 			{
-				"type": "SectorComplete",
+				"type": "OnSector",
 				"preset": "第五战区"
 			}
 		]
