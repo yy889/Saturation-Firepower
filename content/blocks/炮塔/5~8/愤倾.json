@@ -171,6 +171,7 @@
 		"lightningDamage": 63,
 		"lightning": 2,
 		"lightningLength": 7,
+		"lightningLengthRand": 3,
 		"lightningColor": "BFFFDB",
 		"hitSound": "plasmaboom",
 		"chainEffect":"chainLightning",

@@ -46,7 +46,7 @@
 				"length": 65,
 				"baseLength": 9,
 				"lifetime": 15,
-				"colorFrom": "FEEBB3FF",
+				"colorFrom": "FEEBB3",
 				"colorTo": "ffffff",
 				"cone": 40
 			},
@@ -62,7 +62,7 @@
 						"length": 65,
 						"baseLength": 9,
 						"lifetime": 15,
-						"colorFrom": "FEEBB3FF",
+						"colorFrom": "FEEBB3",
 						"colorTo": "ffffff",
 						"cone": 40
 					},
@@ -73,8 +73,8 @@
 						"sizeTo": 60,
 						"strokeFrom": 5,
 						"strokeTo": 0,
-						"colorFrom": "FEEBB3FF",
-						"colorTo": "FEEBB3FF"
+						"colorFrom": "FEEBB3",
+						"colorTo": "FEEBB3"
 					}
 				]
 			},
@@ -83,10 +83,10 @@
 			"width": 12,
 			"height": 28,
 			"frontColor": "FFFFFF",
-			"backColor": "FEEBB3FF",
+			"backColor": "FEEBB3",
 			"trailLength": 8,
 			"trailWidth": 3,
-			"trailColor": "FEEBB3FF",
+			"trailColor": "FEEBB3",
 			"speed": 12,
 			"lifetime": 30,
 			"splashDamageRadius": 64,
@@ -111,7 +111,7 @@
 							"length": 45,
 							"baseLength": 9,
 							"lifetime": 15,
-							"colorFrom": "FEEBB3FF",
+							"colorFrom": "FEEBB3",
 							"colorTo": "ffffff",
 							"cone": 40
 						},
@@ -122,8 +122,8 @@
 							"sizeTo": 40,
 							"strokeFrom": 3,
 							"strokeTo": 0,
-							"colorFrom": "FEEBB3FF",
-							"colorTo": "FEEBB3FF"
+							"colorFrom": "FEEBB3",
+							"colorTo": "FEEBB3"
 						}
 					]
 				},
@@ -160,7 +160,7 @@
 				"length": 85,
 				"baseLength": 9,
 				"lifetime": 15,
-				"colorFrom": "FEEBB3FF",
+				"colorFrom": "FEEBB3",
 				"colorTo": "ffffff",
 				"cone": 70
 			},
@@ -176,7 +176,7 @@
 						"length": 85,
 						"baseLength": 9,
 						"lifetime": 15,
-						"colorFrom": "FEEBB3FF",
+						"colorFrom": "FEEBB3",
 						"colorTo": "ffffff",
 						"cone": 70
 					},
@@ -187,8 +187,8 @@
 						"sizeTo": 80,
 						"strokeFrom": 9,
 						"strokeTo": 0,
-						"colorFrom": "FEEBB3FF",
-						"colorTo": "FEEBB3FF"
+						"colorFrom": "FEEBB3",
+						"colorTo": "FEEBB3"
 					}
 				]
 			},
@@ -198,10 +198,10 @@
 			"width": 12,
 			"height": 40,
 			"frontColor": "FFFFFF",
-			"backColor": "FEEBB3FF",
+			"backColor": "FEEBB3",
 			"trailLength": 10,
 			"trailWidth": 2,
-			"trailColor": "FEEBB3FF",
+			"trailColor": "FEEBB3",
 			"bulletInterval": 0.5,
 			"intervalBullets": 1,
 			"intervalRandomSpread": 60,
@@ -220,7 +220,7 @@
 							"length": 55,
 							"baseLength": 9,
 							"lifetime": 15,
-							"colorFrom": "FEEBB3FF",
+							"colorFrom": "FEEBB3",
 							"colorTo": "ffffff",
 							"cone": 40
 						},
@@ -231,8 +231,8 @@
 							"sizeTo": 50,
 							"strokeFrom": 6,
 							"strokeTo": 0,
-							"colorFrom": "FEEBB3FF",
-							"colorTo": "FEEBB3FF"
+							"colorFrom": "FEEBB3",
+							"colorTo": "FEEBB3"
 						}
 					]
 				},
@@ -274,7 +274,7 @@
 							"length": 55,
 							"baseLength": 9,
 							"lifetime": 15,
-							"colorFrom": "FEEBB3FF",
+							"colorFrom": "FEEBB3",
 							"colorTo": "ffffff",
 							"cone": 40
 						},
@@ -285,8 +285,8 @@
 							"sizeTo": 50,
 							"strokeFrom": 6,
 							"strokeTo": 0,
-							"colorFrom": "FEEBB3FF",
-							"colorTo": "FEEBB3FF"
+							"colorFrom": "FEEBB3",
+							"colorTo": "FEEBB3"
 						}
 					]
 				},
@@ -320,7 +320,7 @@
 								"length": 55,
 								"baseLength": 9,
 								"lifetime": 15,
-								"colorFrom": "FEEBB3FF",
+								"colorFrom": "FEEBB3",
 								"colorTo": "ffffff",
 								"cone": 40
 							},
@@ -331,8 +331,8 @@
 								"sizeTo": 50,
 								"strokeFrom": 6,
 								"strokeTo": 0,
-								"colorFrom": "FEEBB3FF",
-								"colorTo": "FEEBB3FF"
+								"colorFrom": "FEEBB3",
+								"colorTo": "FEEBB3"
 							}
 						]
 					},
@@ -366,7 +366,7 @@
 									"length": 55,
 									"baseLength": 9,
 									"lifetime": 15,
-									"colorFrom": "FEEBB3FF",
+									"colorFrom": "FEEBB3",
 									"colorTo": "ffffff",
 									"cone": 40
 								},
@@ -377,8 +377,8 @@
 									"sizeTo": 50,
 									"strokeFrom": 6,
 									"strokeTo": 0,
-									"colorFrom": "FEEBB3FF",
-									"colorTo": "FEEBB3FF"
+									"colorFrom": "FEEBB3",
+									"colorTo": "FEEBB3"
 								}
 							]
 						},
@@ -411,7 +411,7 @@
 										"length": 55,
 										"baseLength": 9,
 										"lifetime": 15,
-										"colorFrom": "FEEBB3FF",
+										"colorFrom": "FEEBB3",
 										"colorTo": "ffffff",
 										"cone": 40
 									},
@@ -422,8 +422,8 @@
 										"sizeTo": 50,
 										"strokeFrom": 6,
 										"strokeTo": 0,
-										"colorFrom": "FEEBB3FF",
-										"colorTo": "FEEBB3FF"
+										"colorFrom": "FEEBB3",
+										"colorTo": "FEEBB3"
 									}
 								]
 							},
@@ -456,7 +456,7 @@
 											"length": 55,
 											"baseLength": 9,
 											"lifetime": 15,
-											"colorFrom": "FEEBB3FF",
+											"colorFrom": "FEEBB3",
 											"colorTo": "ffffff",
 											"cone": 40
 										},
@@ -467,8 +467,8 @@
 											"sizeTo": 50,
 											"strokeFrom": 6,
 											"strokeTo": 0,
-											"colorFrom": "FEEBB3FF",
-											"colorTo": "FEEBB3FF"
+											"colorFrom": "FEEBB3",
+											"colorTo": "FEEBB3"
 										}
 									]
 								},
@@ -501,7 +501,7 @@
 												"length": 55,
 												"baseLength": 9,
 												"lifetime": 15,
-												"colorFrom": "FEEBB3FF",
+												"colorFrom": "FEEBB3",
 												"colorTo": "ffffff",
 												"cone": 40
 											},
@@ -512,8 +512,8 @@
 												"sizeTo": 50,
 												"strokeFrom": 6,
 												"strokeTo": 0,
-												"colorFrom": "FEEBB3FF",
-												"colorTo": "FEEBB3FF"
+												"colorFrom": "FEEBB3",
+												"colorTo": "FEEBB3"
 											}
 										]
 									},
@@ -546,7 +546,7 @@
 													"length": 55,
 													"baseLength": 9,
 													"lifetime": 15,
-													"colorFrom": "FEEBB3FF",
+													"colorFrom": "FEEBB3",
 													"colorTo": "ffffff",
 													"cone": 40
 												},
@@ -557,8 +557,8 @@
 													"sizeTo": 50,
 													"strokeFrom": 6,
 													"strokeTo": 0,
-													"colorFrom": "FEEBB3FF",
-													"colorTo": "FEEBB3FF"
+													"colorFrom": "FEEBB3",
+													"colorTo": "FEEBB3"
 												}
 											]
 										},
@@ -591,7 +591,7 @@
 														"length": 55,
 														"baseLength": 9,
 														"lifetime": 15,
-														"colorFrom": "FEEBB3FF",
+														"colorFrom": "FEEBB3",
 														"colorTo": "ffffff",
 														"cone": 40
 													},
@@ -602,8 +602,8 @@
 														"sizeTo": 50,
 														"strokeFrom": 6,
 														"strokeTo": 0,
-														"colorFrom": "FEEBB3FF",
-														"colorTo": "FEEBB3FF"
+														"colorFrom": "FEEBB3",
+														"colorTo": "FEEBB3"
 													}
 												]
 											},
@@ -636,7 +636,7 @@
 															"length": 55,
 															"baseLength": 9,
 															"lifetime": 15,
-															"colorFrom": "FEEBB3FF",
+															"colorFrom": "FEEBB3",
 															"colorTo": "ffffff",
 															"cone": 40
 														},
@@ -647,8 +647,8 @@
 															"sizeTo": 50,
 															"strokeFrom": 6,
 															"strokeTo": 0,
-															"colorFrom": "FEEBB3FF",
-															"colorTo": "FEEBB3FF"
+															"colorFrom": "FEEBB3",
+															"colorTo": "FEEBB3"
 														}
 													]
 												},
@@ -681,7 +681,7 @@
 																"length": 55,
 																"baseLength": 9,
 																"lifetime": 15,
-																"colorFrom": "FEEBB3FF",
+																"colorFrom": "FEEBB3",
 																"colorTo": "ffffff",
 																"cone": 40
 															},
@@ -692,8 +692,8 @@
 																"sizeTo": 50,
 																"strokeFrom": 6,
 																"strokeTo": 0,
-																"colorFrom": "FEEBB3FF",
-																"colorTo": "FEEBB3FF"
+																"colorFrom": "FEEBB3",
+																"colorTo": "FEEBB3"
 															}
 														]
 													},
@@ -726,7 +726,7 @@
 																	"length": 55,
 																	"baseLength": 9,
 																	"lifetime": 15,
-																	"colorFrom": "FEEBB3FF",
+																	"colorFrom": "FEEBB3",
 																	"colorTo": "ffffff",
 																	"cone": 40
 																},
@@ -737,8 +737,8 @@
 																	"sizeTo": 50,
 																	"strokeFrom": 6,
 																	"strokeTo": 0,
-																	"colorFrom": "FEEBB3FF",
-																	"colorTo": "FEEBB3FF"
+																	"colorFrom": "FEEBB3",
+																	"colorTo": "FEEBB3"
 																}
 															]
 														},
@@ -771,7 +771,7 @@
 																		"length": 55,
 																		"baseLength": 9,
 																		"lifetime": 15,
-																		"colorFrom": "FEEBB3FF",
+																		"colorFrom": "FEEBB3",
 																		"colorTo": "ffffff",
 																		"cone": 40
 																	},
@@ -782,8 +782,8 @@
 																		"sizeTo": 50,
 																		"strokeFrom": 6,
 																		"strokeTo": 0,
-																		"colorFrom": "FEEBB3FF",
-																		"colorTo": "FEEBB3FF"
+																		"colorFrom": "FEEBB3",
+																		"colorTo": "FEEBB3"
 																	}
 																]
 															},

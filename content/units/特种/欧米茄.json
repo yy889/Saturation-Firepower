@@ -160,7 +160,7 @@
 					"length": 50,
 					"baseLength": 0,
 					"lifetime": 30,
-					"colorFrom": "FEEBB3FF",
+					"colorFrom": "FEEBB3",
 					"colorTo": "ffffff",
 					"cone": 30
 				},
@@ -171,7 +171,7 @@
 				"sideLength": 55,
 				"colors": [
 					"FEEBB390",
-					"FEEBB3FF",
+					"FEEBB3",
 					"FFFFFF"
 				],
 				"lifetime": 25,

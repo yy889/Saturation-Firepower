@@ -1,8 +1,6 @@
 {
 	"type": "ItemTurret",
 	"name": "死诏",
-	"description": "区块级轨道炮，向超远距离大型目标射击。",
-	"details": "",
 	"health": 10500,
 	"armor": 12,
 	"size": 5,
@@ -201,7 +199,7 @@
 						"length": 25,
 						"baseLength": 16,
 						"lifetime": 38,
-						"colorFrom": "FEEBB3FF",
+						"colorFrom": "FEEBB3",
 						"colorTo": "737373FF",
 						"cone": 360
 					},
@@ -212,7 +210,7 @@
 						"sizeTo": 45,
 						"strokeFrom": 6,
 						"strokeTo": 0,
-						"colorFrom": "FEEBB3FF",
+						"colorFrom": "FEEBB3",
 						"colorTo": "ffffff"
 					}
 				]
@@ -222,8 +220,8 @@
 			"type": "PointBulletType",
 			"damage": 8400,
 			"hitSound": "DBZ1",
-			"speed": 20,
-			"lifetime": 180,
+			"speed": 100,
+			"lifetime": 10,
 			"hitShake": 8,
 			"buildingDamageMultiplier": 0.2,
 			"status":"干扰",
@@ -473,22 +471,10 @@
 		}
 	},
 	"requirements": [
-		{
-			"item": "silicon",
-			"amount": 1500
-		},
-		{
-			"item": "硅钢",
-			"amount": 1000
-		},
-		{
-			"item": "镄",
-			"amount": 850
-		},
-		{
-			"item": "泰勒合金",
-			"amount": 550
-		}
+		"silicon/1500",
+		"硅钢/1000",
+		"镄/850",
+		"泰勒合金/550"
 	],
 	"category": "turret",
 	"research": "穿云"

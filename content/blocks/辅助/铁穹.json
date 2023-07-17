@@ -23,7 +23,7 @@
 		"length": 0,
 		"baseLength": 0,
 		"lifetime": 180,
-		"colorFrom": "FEEBB3FF",
+		"colorFrom": "FEEBB3",
 		"colorTo": "FEEBB300"},
 	"consumes":{"power":16},
 	"requirements":[

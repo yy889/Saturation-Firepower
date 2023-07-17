@@ -44,10 +44,10 @@
 	"bullet":{
 	"type":"BasicBulletType",
 	"frontColor":"FFFFFF",	
-	"backColor":"FEEBB3FF",
+	"backColor":"FEEBB3",
 	"trailLength":12,
 	"trailWidth":1.6,
-	"trailColor":"FEEBB3FF",
+	"trailColor":"FEEBB3",
 	"status":"崩溃",
 	"statusDuration":100,
 	"damage":25,
@@ -87,8 +87,8 @@
 	"sizeTo": 35,
 	"strokeFrom":3,
 	"strokeTo":0,
-	"colorFrom":"FEEBB3FF",
-	"colorTo": "FEEBB3FF"}]},
+	"colorFrom":"FEEBB3",
+	"colorTo": "FEEBB3"}]},
 	"hitSound":"laser",
 	"hitShake":2,
 	"despawnEffect":"none"

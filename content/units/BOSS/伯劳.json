@@ -1227,7 +1227,7 @@
 	"baseLength": 0,
 	"lifetime": 25,
 	"colorFrom": "ffffff",
-	"colorTo": "FEEBB3FF",
+	"colorTo": "FEEBB3",
 	"cone": 360},
 	"maxRange":600,"damage":220},
 	"parts": [
@@ -1262,7 +1262,7 @@
 	"baseLength": 0,
 	"lifetime": 25,
 	"colorFrom": "ffffff",
-	"colorTo": "FEEBB3FF",
+	"colorTo": "FEEBB3",
 	"cone": 360},
 	"maxRange":600,"damage":220},
 	"parts": [

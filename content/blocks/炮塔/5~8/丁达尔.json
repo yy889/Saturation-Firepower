@@ -42,12 +42,12 @@
 		"pierceCap": 3,
 		"absorbable": false,
 		"frontColor": "FFFFFF",
-		"backColor": "FEEBB3FF",
+		"backColor": "FEEBB3",
 		"width": 5,
 		"height": 25,
 		"trailLength": 2,
 		"trailWidth": 1.3,
-		"trailColor": "FEEBB3FF",
+		"trailColor": "FEEBB3",
 		"shrinkY": 0,
 		"shootEffect": {
 			"type": "WaveEffect",
@@ -57,7 +57,7 @@
 			"strokeFrom": 1.3,
 			"strokeTo": 0,
 			"colorFrom": "ffffff",
-			"colorTo": "FEEBB3FF"
+			"colorTo": "FEEBB3"
 		},
 		"smokeEffect": "none",
 		"hitEffect": {
@@ -71,7 +71,7 @@
 			"length": 50,
 			"baseLength": 0,
 			"lifetime": 10,
-			"colorFrom": "FEEBB3FF",
+			"colorFrom": "FEEBB3",
 			"colorTo": "ffffff",
 			"cone": 60
 		},
@@ -83,7 +83,7 @@
 			"length": 0,
 			"baseLength": 0,
 			"lifetime":8,
-			"colorFrom": "FEEBB3FF",
+			"colorFrom": "FEEBB3",
 			"colorTo": "ffffff",
 			"cone": 360},
 	"ammoMultiplier": 1

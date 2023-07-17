@@ -2037,7 +2037,7 @@
 						"trailRotation": true,
 						"trailLength": 10,
 						"trailWidth": 2.3,
-						"trailColor": "FEEBB3FF",
+						"trailColor": "FEEBB3",
 						"backColor": "EEC591",
 						"speed": 3,
 						"drag": -0.05,

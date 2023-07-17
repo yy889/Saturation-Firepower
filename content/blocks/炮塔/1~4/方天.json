@@ -114,9 +114,10 @@
 	"colorTo": "ffffff"}]}},
 	 "surge-alloy":{
 	"type":"FlakBulletType",
-	"lightningDamage":25,
+	"lightningDamage":28,
 	"lightning":2,
 	"lightningLength":15,
+	"lightningLengthRand": 15,
 	"shrinkY":0,
 	"speed": 7,
 	"damage":20,

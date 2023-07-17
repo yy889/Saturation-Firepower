@@ -39,11 +39,11 @@
 	"status":"崩溃",
 	"statusDuration":300,
 	"speed":15, "lifetime":21,
-	"frontColor":"FEEBB3FF",	
+	"frontColor":"FEEBB3",	
 	"backColor":"FFFFFF",
 	"trailLength":12,
 	"trailWidth":1.5,
-	"trailColor":"FEEBB3FF",
+	"trailColor":"FEEBB3",
 	"hitSound":"laser",
 	"shootEffect":  {	 
 	"type": "ParticleEffect",
@@ -53,7 +53,7 @@
 	"length": 40,
 	"baseLength": 0,
 	"lifetime": 30,
-	"colorFrom": "FEEBB3FF",
+	"colorFrom": "FEEBB3",
 	"colorTo": "FFFFFF",
 	"cone": 50
 	   },

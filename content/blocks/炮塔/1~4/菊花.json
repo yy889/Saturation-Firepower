@@ -151,11 +151,11 @@
 			"ammoMultiplier": 3,
 			"trailLength": 11,
 			"trailWidth": 3,
-			"trailColor": "FEEBB3FF",
+			"trailColor": "FEEBB3",
 			"shrinkY": 0,
 			"shrinkX": 0,
-			"backColor": "FEEBB3FF",
-			"frontColor": "FEEBB3FF",
+			"backColor": "FEEBB3",
+			"frontColor": "FEEBB3",
 			"hitShake": 4,
 			"hitEffect": {
 				"type": "MultiEffect",
@@ -169,7 +169,7 @@
 						"baseLength": 20,
 						"lifetime": 25,
 						"colorFrom": "FFFFFF80",
-						"colorTo": "FEEBB3FF",
+						"colorTo": "FEEBB3",
 						"cone": 360
 					},
 					{
@@ -202,7 +202,8 @@
 			"damage": 33,
 			"lightningDamage": 22,
 			"lightning": 2,
-			"lightningLength": 11,
+			"lightningLength": 9,
+			"lightningLengthRand": 4,
 			"splashDamageRadius": 48,
 			"splashDamage": 72
 		},
@@ -528,6 +529,7 @@
 			"lightningDamage": 33,
 			"lightning": 4,
 			"lightningLength": 8,
+			"lightningLengthRand": 9,
 			"lightningColor": "BFFFDB"
 		}
 	},

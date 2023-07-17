@@ -56,9 +56,9 @@
 				"knockback": 9,
 				"trailLength": 5,
 				"trailWidth": 2.3,
-				"trailColor": "FEEBB3FF",
-				"frontColor": "FEEBB3FF",
-				"backColor": "FEEBB3FF",
+				"trailColor": "FEEBB3",
+				"frontColor": "FEEBB3",
+				"backColor": "FEEBB3",
 				"shootEffect": "none",
 				"splashDamageRadius": 45,
 				"splashDamage": 65,
@@ -71,7 +71,7 @@
 					"strokeFrom": 0,
 					"strokeTo": 1,
 					"colorFrom": "FEEBB390",
-					"colorTo": "FEEBB3FF"
+					"colorTo": "FEEBB3"
 				},
 				"hitEffect": {
 					"type": "MultiEffect",
@@ -84,7 +84,7 @@
 							"length": 40,
 							"baseLength": 8,
 							"lifetime": 35,
-							"colorFrom": "FEEBB3FF",
+							"colorFrom": "FEEBB3",
 							"colorTo": "ffffff",
 							"cone": 360
 						},
@@ -95,7 +95,7 @@
 							"sizeTo": 70,
 							"strokeFrom": 3,
 							"strokeTo": 0,
-							"colorFrom": "FEEBB3FF",
+							"colorFrom": "FEEBB3",
 							"colorTo": "FEEBB380"
 						}
 					]
@@ -129,7 +129,7 @@
 					"length": 35,
 					"baseLength": 0,
 					"lifetime": 36,
-					"colorFrom": "FEEBB3FF",
+					"colorFrom": "FEEBB3",
 					"colorTo": "ffffff",
 					"cone": 60
 				},
@@ -145,7 +145,7 @@
 							"length": 65,
 							"baseLength": 9,
 							"lifetime": 15,
-							"colorFrom": "FEEBB3FF",
+							"colorFrom": "FEEBB3",
 							"colorTo": "ffffff",
 							"cone": 40
 						},
@@ -156,8 +156,8 @@
 							"sizeTo": 60,
 							"strokeFrom": 5,
 							"strokeTo": 0,
-							"colorFrom": "FEEBB3FF",
-							"colorTo": "FEEBB3FF"
+							"colorFrom": "FEEBB3",
+							"colorTo": "FEEBB3"
 						}
 					]
 				},
@@ -170,9 +170,9 @@
 				"sprite": "large-bomb",
 				"trailLength": 2,
 				"trailWidth": 5,
-				"trailColor": "FEEBB3FF",
-				"frontColor": "FEEBB3FF",
-				"backColor": "FEEBB3FF",
+				"trailColor": "FEEBB3",
+				"frontColor": "FEEBB3",
+				"backColor": "FEEBB3",
 				"speed": 3,
 				"lifetime": 120,
 				"splashDamageRadius": 80,

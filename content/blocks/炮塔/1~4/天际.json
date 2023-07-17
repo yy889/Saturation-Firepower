@@ -24,7 +24,7 @@
                         "moveX": 2.25,
                         "moveY": 3.25,
                         "heatProgress": "recoil",
-                        "heatColor": "FEEBB3FF"
+                        "heatColor": "FEEBB3"
                     },
                     {
                         "type": "RegionPart",
@@ -35,7 +35,7 @@
                         "moveX": 1.5,
                         "moveY": -1,
                         "heatProgress": "recoil",
-                        "heatColor": "FEEBB3FF"
+                        "heatColor": "FEEBB3"
                     }
                 ]
             }
@@ -64,12 +64,12 @@
         "hitSound": "shotgun",
         "sprite": "饱和火力-透彻",
         "frontColor": "FFFFFF",
-        "backColor": "FEEBB3FF",
+        "backColor": "FEEBB3",
         "width": 15,
         "height": 45,
         "trailLength": 25,
         "trailWidth": 1.2,
-        "trailColor": "FEEBB3FF",
+        "trailColor": "FEEBB3",
         "homingDelay":7.7,
         "homingPower":0.02,
         "homingRange": 80,
@@ -90,7 +90,7 @@
                     "strokeFrom": 0,
                     "strokeTo": 2,
                     "colorFrom": "FFFFFF",
-                    "colorTo": "FEEBB3FF"
+                    "colorTo": "FEEBB3"
                 },
                 {
                     "type": "ParticleEffect",
@@ -104,7 +104,7 @@
                     "baseLength": 90,
                     "lifetime": 40,
                     "colorFrom": "FFFFFF",
-                    "colorTo": "FEEBB3FF",
+                    "colorTo": "FEEBB3",
                     "cone": 50
                 },
                 {
@@ -116,7 +116,7 @@
                     "baseLength": -90,
                     "lifetime": 40,
                     "colorFrom": "FFFFFF",
-                    "colorTo": "FEEBB3FF",
+                    "colorTo": "FEEBB3",
                     "cone": 50
                 },
                 {
@@ -132,7 +132,7 @@
                     "baseLength": 1,
                     "lifetime": 45,
                     "colorFrom": "FFFFFF",
-                    "colorTo": "FEEBB3FF",
+                    "colorTo": "FEEBB3",
                     "cone": 0
                 },
                 {
@@ -144,7 +144,7 @@
                     "baseLength": -0,
                     "lifetime": 70,
                     "colorFrom": "FFFFFF",
-                    "colorTo": "FEEBB3FF",
+                    "colorTo": "FEEBB3",
                     "cone": 360
                 }
             ]
@@ -157,7 +157,7 @@
             "length": 80,
             "baseLength": 0,
             "lifetime": 20,
-            "colorFrom": "FEEBB3FF",
+            "colorFrom": "FEEBB3",
             "colorTo": "FFFFFF",
             "cone": 30
         },
@@ -168,7 +168,7 @@
             "sizeTo": 40,
             "strokeFrom": 1,
             "strokeTo": 0,
-            "colorFrom": "FEEBB3FF",
+            "colorFrom": "FEEBB3",
             "colorTo": "ffffff"
         }
     },
@@ -183,7 +183,7 @@
                 "sizeTo": 80,
                 "strokeFrom": 2,
                 "strokeTo": 0,
-                "colorFrom": "FEEBB3FF",
+                "colorFrom": "FEEBB3",
                 "colorTo": "ffffff"
             },
             {
@@ -194,7 +194,7 @@
                 "length": 40,
                 "baseLength": 0,
                 "lifetime": 120,
-                "colorFrom": "FEEBB3FF",
+                "colorFrom": "FEEBB3",
                 "colorTo": "FFFFFF",
                 "cone": 50
             }

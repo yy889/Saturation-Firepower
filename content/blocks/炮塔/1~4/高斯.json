@@ -37,6 +37,7 @@
     "type":"LightningBulletType",
     "damage":12,
     "lightningLength":20,
+    "lightningLengthRand": 8,
 	"ammoMultiplier":1,
     "collidesAir": true},
 	"requirements": [

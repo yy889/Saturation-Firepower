@@ -2,8 +2,8 @@
 	"name": "怨灵Z",
 	"armor":22,
 	"size": 8,
-	"reload": 2.4,
-	"fogRadiusMultiplier":1.125,
+	"reload": 5,
+	"fogRadiusMultiplier":0.725,
 	"range": 520,
 	"maxAmmo": 60,
 	"recoilTime":90,
@@ -15,7 +15,41 @@
 		"barrels": 2,
 		"spread": 24
 	},
-	"ammoUseEffect": "casing4",
+	"ammoUseEffect": {
+		"type":"MultiEffect",
+		"effects":[
+	{
+		"type": "ParticleEffect",
+		"particles": 1,
+		"line": true,
+		"interp":"pow10Out",
+		"sizeInterp":"pow5In",
+		"strokeFrom": 8,
+		"strokeTo": 0,
+		"lenFrom": 10,
+		"lenTo": 0,
+		"length": -48,
+		"baseLength": -10,
+		"randLength": false,
+		"lifetime": 74,
+		"colorFrom": "FFE176",
+		"colorTo": "737373",
+		"layer":48
+	},
+	{
+		"type": "ParticleEffect",
+		"particles": 2,
+		"sizeFrom": 12,
+		"sizeTo": 0,
+		"interp": "pow10Out",
+		"sizeInterp": "pow10In",
+		"length": -60,
+		"baseLength": 0,
+		"lifetime": 85,
+		"colorFrom": "73737390",
+		"colorTo": "73737350",
+		"layer":49}
+	]},
 	"ammoPerShot": 3,
 	"targetGround": true,
 	"targetAir": true,
@@ -55,7 +89,7 @@
 						"length": 55,
 						"baseLength": 9,
 						"lifetime": 15,
-						"colorFrom": "FEEBB3FF",
+						"colorFrom": "FEEBB3",
 						"colorTo": "ffffff",
 						"cone": 360
 					},
@@ -66,8 +100,8 @@
 						"sizeTo": 50,
 						"strokeFrom": 3,
 						"strokeTo": 0,
-						"colorFrom": "FEEBB3FF",
-						"colorTo": "FEEBB3FF"
+						"colorFrom": "FEEBB3",
+						"colorTo": "FEEBB3"
 					}
 				]
 			},
@@ -120,7 +154,7 @@
 							"length": 45,
 							"baseLength": 9,
 							"lifetime": 15,
-							"colorFrom": "FEEBB3FF",
+							"colorFrom": "FEEBB3",
 							"colorTo": "ffffff",
 							"cone": 40
 						},
@@ -131,8 +165,8 @@
 							"sizeTo": 40,
 							"strokeFrom": 3,
 							"strokeTo": 0,
-							"colorFrom": "FEEBB3FF",
-							"colorTo": "FEEBB3FF"
+							"colorFrom": "FEEBB3",
+							"colorTo": "FEEBB3"
 						}
 					]
 				},
@@ -163,7 +197,7 @@
 								"length": 45,
 								"baseLength": 9,
 								"lifetime": 15,
-								"colorFrom": "FEEBB3FF",
+								"colorFrom": "FEEBB3",
 								"colorTo": "ffffff",
 								"cone": 40
 							},
@@ -174,8 +208,8 @@
 								"sizeTo": 40,
 								"strokeFrom": 3,
 								"strokeTo": 0,
-								"colorFrom": "FEEBB3FF",
-								"colorTo": "FEEBB3FF"
+								"colorFrom": "FEEBB3",
+								"colorTo": "FEEBB3"
 							}
 						]
 					},

@@ -95,8 +95,8 @@
 					"lenTo": 10,
 					"strokeFrom": 3.5,
 					"strokeTo": 0,
-					"colorFrom": "FEEBB3FF",
-					"colorTo": "FEEBB3FF",
+					"colorFrom": "FEEBB3",
+					"colorTo": "FEEBB3",
 					"cone": 0
 				},
 				"trailSpacing": 9,
@@ -149,8 +149,8 @@
 							"length": 83,
 							"baseLength": 0,
 							"lifetime": 22,
-							"colorFrom": "FEEBB3FF",
-							"colorTo": "FEEBB3FF",
+							"colorFrom": "FEEBB3",
+							"colorTo": "FEEBB3",
 							"cone": 360
 						},
 						{
@@ -160,8 +160,8 @@
 							"sizeTo": 52,
 							"strokeFrom": 5,
 							"strokeTo": 0,
-							"colorFrom": "FEEBB3FF",
-							"colorTo": "FEEBB3FF"
+							"colorFrom": "FEEBB3",
+							"colorTo": "FEEBB3"
 						},
 						{
 							"type": "ParticleEffect",
@@ -194,8 +194,8 @@
 						"lenTo": 10,
 						"strokeFrom": 2,
 						"strokeTo": 0,
-						"colorFrom": "FEEBB3FF",
-						"colorTo": "FEEBB3FF",
+						"colorFrom": "FEEBB3",
+						"colorTo": "FEEBB3",
 						"cone": 0
 					},
 					"lifetime": 10,
@@ -233,8 +233,8 @@
 								"length": 33,
 								"baseLength": 2,
 								"lifetime": 10,
-								"colorFrom": "FEEBB3FF",
-								"colorTo": "FEEBB3FF",
+								"colorFrom": "FEEBB3",
+								"colorTo": "FEEBB3",
 								"cone": 360
 							}
 						]
@@ -268,8 +268,8 @@
 					"lenTo": 10,
 					"strokeFrom": 3.8,
 					"strokeTo": 0,
-					"colorFrom": "FEEBB3FF",
-					"colorTo": "FEEBB3FF",
+					"colorFrom": "FEEBB3",
+					"colorTo": "FEEBB3",
 					"cone": 0
 				},
 				"trailSpacing": 9,
@@ -322,8 +322,8 @@
 							"length": 83,
 							"baseLength": 0,
 							"lifetime": 22,
-							"colorFrom": "FEEBB3FF",
-							"colorTo": "FEEBB3FF",
+							"colorFrom": "FEEBB3",
+							"colorTo": "FEEBB3",
 							"cone": 360
 						},
 						{
@@ -333,8 +333,8 @@
 							"sizeTo": 52,
 							"strokeFrom": 5,
 							"strokeTo": 0,
-							"colorFrom": "FEEBB3FF",
-							"colorTo": "FEEBB3FF"
+							"colorFrom": "FEEBB3",
+							"colorTo": "FEEBB3"
 						},
 						{
 							"type": "ParticleEffect",
@@ -367,8 +367,8 @@
 						"lenTo": 10,
 						"strokeFrom": 2,
 						"strokeTo": 0,
-						"colorFrom": "FEEBB3FF",
-						"colorTo": "FEEBB3FF",
+						"colorFrom": "FEEBB3",
+						"colorTo": "FEEBB3",
 						"cone": 0
 					},
 					"lifetime": 10,
@@ -406,8 +406,8 @@
 								"length": 33,
 								"baseLength": 2,
 								"lifetime": 10,
-								"colorFrom": "FEEBB3FF",
-								"colorTo": "FEEBB3FF",
+								"colorFrom": "FEEBB3",
+								"colorTo": "FEEBB3",
 								"cone": 360
 							}
 						]

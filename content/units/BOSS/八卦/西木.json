@@ -1,12 +1,13 @@
 {
-	"type": "flying",
+	"type": "payload",
 	"name": "西木",
+	"payloadCapacity": 3600,
 	"healColor":"FF5B5B",
 	"outlineColor":"383848",
-	"speed": 1.8,
-	"drag": 0.07,
-	"accel": 0.08,
-	"rotateSpeed": 3.44,
+	"speed": 1.88,
+	"drag": 0.04,
+	"accel": 0.06,
+	"rotateSpeed": 2.44,
 	"immunities": [
 		"blasted","burning","electrified",
 		"freezing","melting","disarmed",
@@ -21,7 +22,7 @@
 		"parent":"西木",
 		"objectives": [{"type": "SectorComplete","preset": "火天路"}]
 	},
-	"hitSize": 35,
+	"hitSize": 75,
 	"flying": true,
 	"health": 430000,
 	"armor": 104,
@@ -33,8 +34,9 @@
 			"rotation": 0
 		}
 	],
-	"engineOffset": 5.5,
-	"engineSize": 16,
+	"engineOffset": 35,
+	"engineSize": 13,
+	"trailLength":20,
 	"faceTarget": true,
 	"weapons": [
 		{
@@ -47,7 +49,7 @@
 			"shootCone": 30,
 			"inaccuracy": 8,
 			"minWarmup": 0.8,
-			"shootWarmupSpeed": 0.05,
+			"shootWarmupSpeed": 0.035,
 			"shootSound": "malignShoot",
 			"shootStatusDuration": 16,
 			"shootStatus": "overclock",
@@ -140,17 +142,19 @@
 			"shootCone":10,
 			"inaccuracy":0,
 			"reload":90,
-			"alwaysContinuous": true,
+			"continuous": true,
+			//"alwaysContinuous": true,
 			"minWarmup": 0.8,
-			"shootWarmupSpeed": 0.05,
+			"shootWarmupSpeed": 0.035,
 			"shootSound":"beam",
 			"bullet":{
 				"type":"PointLaserBulletType",
+				"keepVelocity":false,
 				"maxRange":380,
 				"beamEffectInterval":8,
 				"beamEffectSize":16.5,
 				"lifetime":60,
-				"speed":2,
+				"speed":3,
 				"shake":3,
 				"damageInterval":1,
 				"damage":360
@@ -165,7 +169,7 @@
 			"reload": 880,
 			"shootSound": "plasmadrop",
 			"shootCone":180,
-			"minShootVelocity": 2.1,
+			"minShootVelocity": 2.4,
 			"bullet": {
 				"type": "BasicBulletType",
 				"keepVelocity":false,
@@ -404,6 +408,34 @@
 						}
 					}
 				}
+			}
+		},
+		{
+			"name": "西木-f",
+			"x":34,
+			"y":-26,
+			"reload": 5,
+			//"display": false,
+			"mirror": true,
+			"rotate": false,
+			"shootSound": "none",
+			"alwaysShooting": true,
+			"continuous": true,
+			//"alwaysContinuous": true,
+			"alternate": false,
+			"minShootVelocity": 2.3,
+			"baseRotation": 180,
+			"bullet": {
+				"type": "ContinuousFlameBulletType",
+				"colors":["F19583","FEEBB3","FFF2D6","ffffff"],
+				"lightColor":"FEEBB3",
+				"length": 22,
+				"lifetime":800,
+				"statusDuration": 600,
+				"status": "崩溃",
+				"damage": 3,
+				"drawFlare": false,
+				"collides": false
 			}
 		}
 	],

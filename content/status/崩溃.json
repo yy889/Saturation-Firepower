@@ -13,8 +13,8 @@
 	"lifetime": 10,
 	"sizeFrom": 2,
 	"sizeTo": 0,
-	"colorFrom": "FEEBB3FF",
-	"colorTo": "FEEBB3FF",
+	"colorFrom": "FEEBB3",
+	"colorTo": "FEEBB3",
 	"cone":360 },
 		{"type": "ParticleEffect",
 			"particles": 2,
@@ -27,8 +27,8 @@
 			"length": 23,
 			"baseLength": 0,
 			"lifetime": 10,
-			"colorFrom": "FEEBB3FF",
-			"colorTo": "FEEBB3FF",
+			"colorFrom": "FEEBB3",
+			"colorTo": "FEEBB3",
 			"cone":360}
 		]}
 }
