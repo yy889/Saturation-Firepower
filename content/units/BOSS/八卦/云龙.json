@@ -1156,14 +1156,14 @@
 					"sparkStroke": 2,
 					"sparkLen": 22
 				},
-				"trailChance": 1,
+				"trailChance": 0.44,
 				"trailEffect":{
 					"type": "ParticleEffect",
 					"particles": 1,
 					"length": 10,
 					"baseLength": 0,
 					"lifetime": 60,
-					"sizeFrom":4,
+					"sizeFrom":3,
 					"sizeTo":0,
 					"sizeInterp":"pow5In",
 					"interp":"pow10Out",
@@ -1321,14 +1321,14 @@
 					"sparkStroke": 2,
 					"sparkLen": 22
 				},
-				"trailChance": 1,
+				"trailChance": 0.44,
 				"trailEffect":{
 					"type": "ParticleEffect",
 					"particles": 1,
 					"length": 10,
 					"baseLength": 0,
 					"lifetime": 60,
-					"sizeFrom":4,
+					"sizeFrom":3,
 					"sizeTo":0,
 					"sizeInterp":"pow5In",
 					"interp":"pow10Out",
@@ -1486,14 +1486,14 @@
 					"sparkStroke": 2,
 					"sparkLen": 22
 				},
-				"trailChance": 1,
+				"trailChance": 0.44,
 				"trailEffect":{
 					"type": "ParticleEffect",
 					"particles": 1,
 					"length": 10,
 					"baseLength": 0,
 					"lifetime": 60,
-					"sizeFrom":4,
+					"sizeFrom":3,
 					"sizeTo":0,
 					"sizeInterp":"pow5In",
 					"interp":"pow10Out",
@@ -1583,8 +1583,8 @@
 			"shootSound": "largeCannon",
 			"shake": 8,
 			"shoot": {
-				"shots": 1,
-				"shotDelay": 23,
+				//"shots": 1,
+				//"shotDelay": 23,
 				"type": "ShootBarrel",
 				"barrels": [
 					0,11,0,
@@ -1724,7 +1724,7 @@
 					"lifetime": 40,
 					"sizeFrom":6,
 					"sizeTo":0,
-					"sizeInterp":"pow5In",
+					"sizeInterp":"pow3In",
 					"interp":"pow10Out",
 					"colorFrom": "BFFFDB80",
 					"colorTo": "E3E3E350"

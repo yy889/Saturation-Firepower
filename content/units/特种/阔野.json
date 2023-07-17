@@ -92,7 +92,10 @@
 	"health": 200000,
 	"armor": 166,
 	"itemCapacity": 1800,
-	"research":"阔野管理中心",
+	"research": {
+		"parent": "阔野管理中心",
+		"requirements": ["三级协议/8000"]
+	},
 	"abilities": [
 		{
 			"type": "EnergyFieldAbility",
@@ -797,10 +800,10 @@
 			"controllable": false,
 			"autoTarget": true,
 			"bullet": {
+				"type":"MissileBulletType",
 				"height": 30,
 				"width": 15,
 				"sprite": "missile-large",
-				"damage": 55,
 				"absorbable": false,
 				"speed": 6,
 				"drag": -0.02,
@@ -809,11 +812,13 @@
 				"shrinkX": 0,
 				"homingDelay": 27.5,
 				"homingPower": 1,
-				"homingRange": 180,
-				"lightningDamage": 78,
+				"homingRange": 80,
+				"lightningDamage": 154,
 				"lightning": 2,
 				"lightningLength": 20,
+				"lightningLengthRand": 4,
 				"lightningColor": "FEEBB3",
+				"damage": 110,
 				"splashDamageRadius": 75,
 				"splashDamage": 95,
 				"status": "崩溃",
@@ -866,14 +871,29 @@
 						},
 						{
 							"type": "ParticleEffect",
-							"particles": 4,
-							"sizeFrom": 16,
+							"particles": 6,
+							"sizeFrom": 10,
 							"sizeTo": 0,
-							"length": 60,
-							"baseLength": 35,
-							"lifetime": 15,
-							"colorFrom": "FEEBB388",
-							"colorTo": "FEEBB388"
+							"sizeInterp":"pow5In",
+							"interp":"pow10Out",
+							"length": 50,
+							"baseLength": 15,
+							"lifetime": 65,
+							"colorFrom": "FEEBB3",
+							"colorTo": "FEEBB380"
+						},
+						{
+							"type": "ParticleEffect",
+							"particles": 5,
+							"sizeFrom": 8,
+							"sizeTo": 0,
+							"sizeInterp":"pow5In",
+							"interp":"pow5Out",
+							"length": 65,
+							"baseLength": 10,
+							"lifetime": 55,
+							"colorFrom": "E3E3E380",
+							"colorTo": "E3E3E380"
 						}
 					]
 				}
@@ -1018,7 +1038,7 @@
 			"shootSound": "lasercharge2",
 			"recoil": 0,
 			"rotateSpeed": 99,
-			"reload": 18,
+			"reload": 12,
 			"targetInterval": 10,
 			"targetSwitchInterval": 10,
 			"bullet": {
@@ -1036,7 +1056,7 @@
 					"colorTo": "FEEBB3"
 				},
 				"maxRange": 360,
-				"damage": 120
+				"damage": 180
 			}
 		},
 		{
