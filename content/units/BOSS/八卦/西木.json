@@ -326,6 +326,7 @@
 				"fragBullets": 20,
 				"fragBullet": {
 					"type":"BasicBulletType",
+					"suppressionRange": 80,
 					"splashDamageRadius": 80,
 					"splashDamage": 80,
 					"sprite":"circle-bullet",

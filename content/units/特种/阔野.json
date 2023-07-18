@@ -16,19 +16,19 @@
 	"buildRange": 400,
 	"buildSpeed": 15,
 	"buildBeamOffset": 20,
-	"engineOffset": 70,
-	"engineSize": 20,
+	"engineOffset": 82,
+	"engineSize": 18,
 	"engines": [
 		{
-			"x": -50,
-			"y": -72,
-			"radius": 10,
+			"x": -54,
+			"y": -79,
+			"radius": 9,
 			"rotation": -120
 		},
 		{
-			"x": 50,
-			"y": -72,
-			"radius": 10,
+			"x": 54,
+			"y": -79,
+			"radius": 9,
 			"rotation": -30
 		},
 		{
@@ -800,7 +800,7 @@
 			"controllable": false,
 			"autoTarget": true,
 			"bullet": {
-				"type":"MissileBulletType",
+				"type":"missileBulletType",
 				"height": 30,
 				"width": 15,
 				"sprite": "missile-large",
@@ -812,7 +812,7 @@
 				"shrinkX": 0,
 				"homingDelay": 27.5,
 				"homingPower": 1,
-				"homingRange": 80,
+				"homingRange": 180,
 				"lightningDamage": 154,
 				"lightning": 2,
 				"lightningLength": 20,
