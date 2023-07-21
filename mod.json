@@ -1,66 +1,94 @@
 {
 	"name": "饱和火力",
-	"displayName":"饱和火力",
+	"displayName":"Saturation firepower",
 	"author":"RA2",
-	"version":"3.0.15",
-	"minGameVersion":"144",
-	"repo":"RA2EXE/Saturation-Firepower",
-	"description":"以压倒性火力，制衡天下之模组。
-模组一群：181108928
-或者前往Github查看火力最新状态
-B站随机直播
-饱和火力服务器保持常开，请装载最新模组进入
+	"version":"3.0.14",
+	"minGameVersion":"143"
+	"description":"With overwhelming firepower, balance the world's mods
+Mod QQ group 1：181108928.
+or go to Github download the lastest version mod.
+And i will live in bilibili
+the server of Saturation firepower is opened,please load the newest mod to join the server.
 ———————————————
-这是最适合做模板的mod，你可以在许多新mod里找到本mod的身影\n每次贴图更新，都会将旧贴图作为公益物发至群内，有需自取
-[green[]]以下绿线中内容必读！！
+This mod very fit to be a mod template，You can find shadow of this mod in many new mods\nWhen the mod's texture update，i will upload the old texture into QQ group for free，and take things what you need
+[green[]]The info following green line must be read！！
 ———————————————[white[]]
-代码开源可抄，但是[red[]]抄袭/改色/缝合[white[]]贴图属于[red[]]侵犯作者知识产权[white[]]的行为
-火力代码贴图可以作为你的[gold[]]起步工具，[white[]]但绝不能成为你的[gold[]]模组主力
-[sky[]]创新才是你的第一生产力！！！\n及时脱离套式发展，走上自己的独特道路！！！\n抄袭终会被玩家制裁！！！
+The mod's Code is open source,and you can be copied it，but[red[]]Any Copy/color change/stitching[white[]]textures actions are belong to [red[]]Infringement of the author's intellectual property rights.
+The mod's code and textures can be a[gold[]]start tools [white[]]for you，but can't be [gold[]]the Main force in your mod
+[sky[]]Innovation is your first productivity！！！\nOff the vicious cycle as soon as possible，and own your unique way in mod development！！！\nPlagiarism will eventually be punished by players！！！
 [green[]]———————————————[white[]]
-饱和火力在每隔两月必定更新一次，偶尔会有紧急修复\n进群第一件事核对你的mod版本！\n若发现bug或有疑问进群咨询
+The mod must update once every 2 months，and seldom have a urgent update(for some important problems)\nThe first thing when you join the QQ group is checking your mod version！\nif you find a bug or have some problem,you can ask in QQ group,we will try our best to solve you problem. 
 [green[]]———————————————[white[]]
-模组历史更新内容将在他处记录\n此处只记录当个大版本（X.X.X）的所有更新项目
+The Mod updates history will record elsewhere\nHere just record all update things in this varsion（X.X.X）
 [green[]]———————————————[white[]]
-战前须知：在宁开始挑战火力的高难度战役前，请务必做好[red[]]备份工作！\n[white[]]mod不对玩家因自己的错误操作导致的不可挽回后果负责！\n小贴士：自定义先试试以免打不过
+Warning：Before you start play the mod high difficulty Battle,please [red[]]backup you archives！\n[white[]]We are not responsible for any results of player wrong actions！\ntip:if you feel you can't victory a battle,you can try it in custom first.
+[yellow[]]Hope you have a good play time.
 [green[]]———————————————[orange[]]
 待办项目：
 ▲转型lava-长期项目▲
+伯劳完全体
 战役持续更新
 ———————————————[white[]]
-3.0.15更新：
-持续跟进英翻
-
+3.0.14更新：
+完成大部分英翻
+工厂简介升级（更有逼格的文字）
 ——————地图类——————
-▲新地图-
-断层带-世处bug修复
-实验种植地-增加矿位-补全了因导出失败丢失的初始建筑
-第五战区-bug修复
+▲新地图-火天路
+▲新地图-实验种植地
+▲第五战区-重置
+断层带-波次修复
+灭绝-增加支援量
 ——————炮塔类——————
-为大部分闪电类弹药修正伤害
-为部分炮塔增加索敌优先级
-为大部分预热炮塔增加持续时间
-▲新炮塔-弹道发射阵列
-先驱-贴图重做
-流冲-子弹可定点
-零丁-贴图重做-特效适配
-——————单位类——————
-特种单位-造价调整
-阔野管理中心-造价调整
-实验工厂-造价调整
-//▲新单位-西木
-▲新单位-云龙
-▲新单位-两栖装甲运载车
-▲新单位-自行榴弹炮
-▲新单位-冥燃
-罗汉-武器强化
-重堂-武器强化
-亚龙-重做导弹
+部分特效重修
+铬弹药全面加强
+▲新炮塔-破霾
+破晓-贴图重置-伤害分配-造价提升
+阳离子照射炮-重置
+丁达尔-造价提升-射程降低
+怨灵-贴图动画适配-特效升级-裂位弹药增加穿透
+折跃-贴图重置
+天罚-贴图重置
+缉踪-造价下调-弹耗降低-伤害降低
+——————液体类——————
+复合装甲导管-贴图重置
+——————电力类——————
+电力能耗全面“减负”
+▲新发电机-弧裂反应堆
+磁暴反应堆-解除限制（没找到解决方案
+裂爆反应堆-降低发电量
+钍反应堆-发电量降低
+镄反应堆-发电量降低-造价上调
+——————辅助类——————
+裂位发射台-加入科技树
+气溶胶扩散塔-修复卡顿问题
+零丁-重做
 ——————状态类——————
-▲新状态-急冻
-//▲新状态-失衡
-//▲新状态-蓄能
-拆解-数据调整
-修复-数据调整
+▲新状态-毁灭
+▲新状态-内溃
+▲新状态-殁火
+碎解-效果增强
+绝判-增加简介
+干扰-效果增强
+——————单位类——————
+实验工厂-造价提升
+▲新单位-神渎
+▲新单位-地魁
+▲亚龙-贴图重置-武器重做
+欧米茄-建造距离延长
+工农-建造距离延长
+阔野-建造距离延长
+碎辰-造价提升
+广寒-降低伤害
+罗汉-武器属性加强-护盾修改
+利刃-贴图重置-移速提升-武器重做
+偏袒-降低血量-部分机型特化
+轰炸-降低特效遮挡度
+地动-优先进攻目标修改-投弹状态降低-防空武器重做
+梭鱼-加强武器
+飞鲨-加强武器
+星辉-降低伤害-修改射击方式
+余晖-特效修改-主炮修改
+雷暴-特效修改
+日蚀-武器坐标修复-血量提升
 "
 }
